@@ -106,3 +106,26 @@ def parse_user_input(user_input: str) -> dict | None:
     except json.JSONDecodeError:
         print(f"[NLU] JSON 解析失敗：{raw}")
         return None
+def is_train_query(user_input: str) -> bool:
+    """
+    判斷使用者輸入是否跟台鐵查詢有關
+    """
+    # 明顯相關的關鍵字
+    keywords = [
+        "台鐵", "火車", "搭車", "坐車", "搭火車",
+        "出發", "到", "去", "回", "前往",
+        "車票", "訂票", "班次", "車次",
+        "台北", "台中", "台南", "高雄", "桃園", "新竹",
+        "花蓮", "台東", "基隆", "嘉義", "屏東",
+        "幾點", "幾號", "明天", "後天", "下週",
+        "今天", "早上", "下午", "晚上",
+    ]
+    
+    text = user_input.strip()
+    
+    # 太短的輸入直接排除（少於2個字）
+    if len(text) < 2:
+        return False
+    
+    # 包含任何關鍵字就判斷為查詢
+    return any(kw in text for kw in keywords)

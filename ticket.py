@@ -33,10 +33,10 @@ def type_and_select_station(page, field_id: str, station_name: str):
     tra_name = to_tra_name(station_name)
 
     page.click(f"#{field_id}")
-    page.wait_for_timeout(300)
+    page.wait_for_timeout(200)
     page.fill(f"#{field_id}", "")
     page.type(f"#{field_id}", tra_name, delay=150)
-    page.wait_for_timeout(2000)
+    page.wait_for_timeout(1000)
 
     # 直接用 JavaScript 找 visible 的 ui-menu-item 並點擊符合的
     clicked = page.evaluate(f"""
@@ -101,7 +101,7 @@ def check_tickets(origin_name: str, dest_name: str, date: str, train_list: list[
     print(f"\n[爬蟲] 查詢時間範圍：{start_time} ~ {end_time}")
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False, slow_mo=300)
+        browser = p.chromium.launch(headless=True)
         page    = browser.new_page()
 
         print(f"[爬蟲] 開啟台鐵時刻查詢...")
@@ -141,8 +141,9 @@ def check_tickets(origin_name: str, dest_name: str, date: str, train_list: list[
         # ── 查詢 ──────────────────────────────────────────
         print(f"[爬蟲] 送出查詢...")
         page.click("input[type=submit]")
-        # ── 解析結果表格 ──────────────────────────────────
-        page.wait_for_timeout(3000)
+       # ── 解析結果表格 ──────────────────────────────────
+        page.wait_for_selector("table tr", timeout=10000)
+        page.wait_for_timeout(1000)
 
         trains_info = []
         rows = page.query_selector_all("table tr")
@@ -152,53 +153,73 @@ def check_tickets(origin_name: str, dest_name: str, date: str, train_list: list[
             if len(cells) < 5:
                 continue
 
-            # 只取第一個 td 的文字，判斷是否是主要資訊行
-            # 主要行格式：「自強 118 ( 屏東 → 七堵 )」，不會有大量空白
-            first_cell = cells[0].inner_text().strip()
-            if not first_cell or len(first_cell) > 60:
+            first_text = cells[0].inner_text().strip()
+
+            # 只取主要班次行：有車種車次資訊，不含大量空白
+            import re
+            if not re.search(r'(自強|莒光|區間|普悠瑪|太魯閣)', first_text):
                 continue
-            # 跳過表頭
-            if "車種" in first_cell or "車次" in first_cell:
-                continue
-            # 跳過空白過多的行（詳細展開行）
-            if first_cell.count("\n") > 3:
+            if first_text.count("\n") > 3:
                 continue
 
-            depart_time = cells[1].inner_text().strip() if len(cells) > 1 else ""
-            arrive_time = cells[2].inner_text().strip() if len(cells) > 2 else ""
-            duration    = cells[3].inner_text().strip() if len(cells) > 3 else ""
+            depart_time = cells[1].inner_text().strip()
+            arrive_time = cells[2].inner_text().strip()
+            duration    = cells[3].inner_text().strip()
             price_full  = cells[6].inner_text().strip() if len(cells) > 6 else ""
 
-            # 時間格式驗證：必須是 HH:MM
-            import re
             if not re.match(r'^\d{2}:\d{2}$', depart_time):
                 continue
             if not re.match(r'^\d{2}:\d{2}$', arrive_time):
                 continue
 
-            row_html   = row.inner_html()
-            is_full    = any(k in row_html for k in ["售完", "額滿", "無票", "候補"])
-            has_ticket = "訂票" in row_html and not is_full
+            # ── 票務狀態判斷 ──────────────────────────────
+            last_cell      = cells[-1]
+            last_html      = last_cell.inner_html().strip()
+            last_text      = last_cell.inner_text().strip()
 
+            has_booking_form = 'tip117/tra2traUrl' in last_html
+            is_soldout       = "售完" in last_html or "額滿" in last_html
+            is_waitlist      = "候補" in last_html
+            is_empty         = len(last_html) < 10  # 空格代表自由座
+
+            if is_soldout:
+                status   = "🔴 售完"
+                can_book = False
+            elif is_waitlist:
+                status   = "🟠 候補"
+                can_book = False
+            elif has_booking_form:
+                status   = "🟢 有票可訂"
+                can_book = True
+            elif is_empty:
+                status   = "🟡 自由座（直接上車）"
+                can_book = True
+            else:
+                status   = "🟡 自由座（直接上車）"
+                can_book = True
+                
             trains_info.append({
-                "info":        first_cell,
+                "info":        first_text,
                 "depart_time": depart_time,
                 "arrive_time": arrive_time,
                 "duration":    duration,
                 "price":       price_full,
-                "has_ticket":  has_ticket,
-                "is_full":     is_full,
+                "status":      status,
+                "can_book":    can_book,
             })
 
         print(f"\n{'='*55}")
-        print(f"{'台鐵官網查詢結果':^45}")
+        print(f"{'台鐵查詢結果':^45}")
         print(f"{'='*55}")
-        for i, t in enumerate(trains_info, 1):
-            status = "🔴 售完/候補" if t["is_full"] else ("🟢 可訂票" if t["has_ticket"] else "🟡 自由座")
-            print(f"\n  第{i}班")
-            print(f"  {t['info']}")
-            print(f"  出發 {t['depart_time']} → 抵達 {t['arrive_time']}（{t['duration']}）")
-            print(f"  票價：{t['price']}　狀態：{status}")
+
+        if not trains_info:
+            print("  查無班次資訊")
+        else:
+            for i, t in enumerate(trains_info, 1):
+                print(f"\n  第{i}班")
+                print(f"  {t['info']}")
+                print(f"  出發 {t['depart_time']} → 抵達 {t['arrive_time']}（{t['duration']}）")
+                print(f"  票價：{t['price']}　狀態：{t['status']}")
         print(f"\n{'='*55}")
 
         return trains_info

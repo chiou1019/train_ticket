@@ -1,0 +1,1692 @@
+2026-05-28 10:30:31,277 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-28 10:30:31,277 [33mPress CTRL+C to quit[0m
+2026-05-28 10:30:46,284 [U769bb0d] 模式:train 人格:正常 輸入:你好
+2026-05-28 10:30:46,498 127.0.0.1 - - [28/May/2026 10:30:46] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:30:55,094 [U769bb0d] 模式:train 人格:正常 輸入:聊天
+2026-05-28 10:30:55,302 127.0.0.1 - - [28/May/2026 10:30:55] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:31:02,455 [U769bb0d] 模式:chat 人格:正常 輸入:人格列表
+2026-05-28 10:31:02,700 127.0.0.1 - - [28/May/2026 10:31:02] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:31:28,085 [U769bb0d] 模式:chat 人格:正常 輸入:哲學
+2026-05-28 10:31:28,334 127.0.0.1 - - [28/May/2026 10:31:28] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:31:41,654 [U769bb0d] 模式:chat 人格:哲學 輸入:這聽起來好傻逼
+2026-05-28 10:31:43,396 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:31:44,422 127.0.0.1 - - [28/May/2026 10:31:44] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:32:45,299 [U0c8cd1a] 模式:train 人格:正常 輸入:67
+2026-05-28 10:32:45,476 127.0.0.1 - - [28/May/2026 10:32:45] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:33:13,130 [U0c8cd1a] 模式:train 人格:正常 輸入:聊天模式
+2026-05-28 10:33:13,319 127.0.0.1 - - [28/May/2026 10:33:13] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:33:17,072 [U0c8cd1a] 模式:chat 人格:正常 輸入:67
+2026-05-28 10:33:18,557 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:33:19,013 127.0.0.1 - - [28/May/2026 10:33:19] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:34:16,751 [U0c8cd1a] 模式:chat 人格:正常 輸入:你可以跟我說67speed的技巧了嗎
+2026-05-28 10:34:17,869 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:34:18,450 127.0.0.1 - - [28/May/2026 10:34:18] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:35:09,871 [U0c8cd1a] 模式:chat 人格:正常 輸入:人格列表
+2026-05-28 10:35:10,102 127.0.0.1 - - [28/May/2026 10:35:10] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:35:18,543 No handler of MessageEvent and no default handler
+2026-05-28 10:35:18,544 127.0.0.1 - - [28/May/2026 10:35:18] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:35:21,941 [U21d535f] 模式:train 人格:正常 輸入:欸
+2026-05-28 10:35:22,105 127.0.0.1 - - [28/May/2026 10:35:22] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:35:27,644 [U0c8cd1a] 模式:chat 人格:正常 輸入:67
+2026-05-28 10:35:29,706 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:35:30,169 127.0.0.1 - - [28/May/2026 10:35:30] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:35:37,256 [U21d535f] 模式:train 人格:正常 輸入:聊天模式
+2026-05-28 10:35:37,504 127.0.0.1 - - [28/May/2026 10:35:37] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:35:55,678 [U21d535f] 模式:chat 人格:正常 輸入:人格列表
+2026-05-28 10:35:55,912 127.0.0.1 - - [28/May/2026 10:35:55] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:36:12,921 [U0c8cd1a] 模式:chat 人格:正常 輸入:人格列表
+2026-05-28 10:36:13,141 127.0.0.1 - - [28/May/2026 10:36:13] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:36:21,178 [U0c8cd1a] 模式:chat 人格:正常 輸入:傲嬌
+2026-05-28 10:36:21,359 127.0.0.1 - - [28/May/2026 10:36:21] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:36:26,083 [U21d535f] 模式:chat 人格:正常 輸入:傲嬌
+2026-05-28 10:36:26,314 127.0.0.1 - - [28/May/2026 10:36:26] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:36:44,243 [U0c8cd1a] 模式:chat 人格:傲嬌 輸入:跟我說67speed技巧
+2026-05-28 10:36:46,231 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:36:47,635 127.0.0.1 - - [28/May/2026 10:36:47] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:36:53,563 [U0c8cd1a] 模式:chat 人格:傲嬌 輸入:幹這什麼雞巴頭像啊
+2026-05-28 10:36:54,681 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:36:55,133 127.0.0.1 - - [28/May/2026 10:36:55] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:38:02,139 [U0c8cd1a] 模式:chat 人格:傲嬌 輸入:人格列表
+2026-05-28 10:38:02,355 127.0.0.1 - - [28/May/2026 10:38:02] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:38:08,000 [U0c8cd1a] 模式:chat 人格:傲嬌 輸入:可愛
+2026-05-28 10:38:08,268 127.0.0.1 - - [28/May/2026 10:38:08] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:38:16,823 [U0c8cd1a] 模式:chat 人格:可愛 輸入:跟我說67speed技巧
+2026-05-28 10:38:19,735 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:38:20,598 127.0.0.1 - - [28/May/2026 10:38:20] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:38:31,235 [U0c8cd1a] 模式:chat 人格:可愛 輸入:人格列表
+2026-05-28 10:38:31,434 127.0.0.1 - - [28/May/2026 10:38:31] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:38:38,721 [U0c8cd1a] 模式:chat 人格:可愛 輸入:病嬌
+2026-05-28 10:38:38,878 127.0.0.1 - - [28/May/2026 10:38:38] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:38:41,763 [U0c8cd1a] 模式:chat 人格:病嬌 輸入:跟我說67speed技巧
+2026-05-28 10:38:44,425 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:38:45,243 127.0.0.1 - - [28/May/2026 10:38:45] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:39:02,277 [U0c8cd1a] 模式:chat 人格:病嬌 輸入:人格列表
+2026-05-28 10:39:02,498 127.0.0.1 - - [28/May/2026 10:39:02] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:39:08,445 [U0c8cd1a] 模式:chat 人格:病嬌 輸入:暴力
+2026-05-28 10:39:08,655 127.0.0.1 - - [28/May/2026 10:39:08] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:39:12,302 [U0c8cd1a] 模式:chat 人格:暴力 輸入:跟我說67speed技巧
+2026-05-28 10:39:13,468 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:39:13,860 127.0.0.1 - - [28/May/2026 10:39:13] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:39:29,307 [U0c8cd1a] 模式:chat 人格:暴力 輸入:人格列表
+2026-05-28 10:39:29,537 127.0.0.1 - - [28/May/2026 10:39:29] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:39:35,556 [U0c8cd1a] 模式:chat 人格:暴力 輸入:傲嬌
+2026-05-28 10:39:35,758 127.0.0.1 - - [28/May/2026 10:39:35] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:39:43,530 [U0c8cd1a] 模式:chat 人格:傲嬌 輸入:靠杯切錯
+2026-05-28 10:39:44,721 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:39:45,192 127.0.0.1 - - [28/May/2026 10:39:45] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:39:47,062 [U0c8cd1a] 模式:chat 人格:傲嬌 輸入:人格列表
+2026-05-28 10:39:47,310 127.0.0.1 - - [28/May/2026 10:39:47] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:39:51,794 [U0c8cd1a] 模式:chat 人格:傲嬌 輸入:驕傲
+2026-05-28 10:39:52,047 127.0.0.1 - - [28/May/2026 10:39:52] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:39:54,702 [U0c8cd1a] 模式:chat 人格:驕傲 輸入:跟我說67speed技巧
+2026-05-28 10:39:57,306 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:39:58,219 127.0.0.1 - - [28/May/2026 10:39:58] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:40:15,770 [U0c8cd1a] 模式:chat 人格:驕傲 輸入:人格列表
+2026-05-28 10:40:15,953 127.0.0.1 - - [28/May/2026 10:40:15] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:40:24,350 [U0c8cd1a] 模式:chat 人格:驕傲 輸入:籃球
+2026-05-28 10:40:24,659 127.0.0.1 - - [28/May/2026 10:40:24] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:40:27,969 [U0c8cd1a] 模式:chat 人格:籃球 輸入:跟我說67speed技巧
+2026-05-28 10:40:29,584 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:40:31,442 127.0.0.1 - - [28/May/2026 10:40:31] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:40:55,253 [U0c8cd1a] 模式:chat 人格:籃球 輸入:人格列表
+2026-05-28 10:40:55,498 127.0.0.1 - - [28/May/2026 10:40:55] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:40:59,468 [U0c8cd1a] 模式:chat 人格:籃球 輸入:哲學
+2026-05-28 10:40:59,659 127.0.0.1 - - [28/May/2026 10:40:59] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:41:03,585 [U0c8cd1a] 模式:chat 人格:哲學 輸入:跟我說67speed技巧
+2026-05-28 10:41:06,357 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:41:07,734 127.0.0.1 - - [28/May/2026 10:41:07] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:41:23,551 [U0c8cd1a] 模式:chat 人格:哲學 輸入:騷
+2026-05-28 10:41:24,765 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:41:25,964 127.0.0.1 - - [28/May/2026 10:41:25] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:41:26,559 [U21d535f] 模式:chat 人格:傲嬌 輸入:？？
+2026-05-28 10:41:29,127 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:41:29,618 127.0.0.1 - - [28/May/2026 10:41:29] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:41:56,552 [U9020bdd] 模式:train 人格:正常 輸入:你好
+2026-05-28 10:41:56,751 127.0.0.1 - - [28/May/2026 10:41:56] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:42:01,695 No handler of MessageEvent and no default handler
+2026-05-28 10:42:01,695 127.0.0.1 - - [28/May/2026 10:42:01] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:42:08,273 [U9020bdd] 模式:train 人格:正常 輸入:你總共有哪些模式
+2026-05-28 10:42:08,606 127.0.0.1 - - [28/May/2026 10:42:08] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:42:13,891 [U9020bdd] 模式:train 人格:正常 輸入:操
+2026-05-28 10:42:14,086 127.0.0.1 - - [28/May/2026 10:42:14] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:42:19,305 [U9020bdd] 模式:train 人格:正常 輸入:聊天模式
+2026-05-28 10:42:19,517 127.0.0.1 - - [28/May/2026 10:42:19] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:42:28,309 [U9020bdd] 模式:chat 人格:正常 輸入:人格列表
+2026-05-28 10:42:28,530 127.0.0.1 - - [28/May/2026 10:42:28] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:42:30,766 [U0c8cd1a] 模式:chat 人格:哲學 輸入:給我更多奶龍圖
+2026-05-28 10:42:32,231 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:42:33,500 127.0.0.1 - - [28/May/2026 10:42:33] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:42:34,552 [U0c8cd1a] 模式:chat 人格:哲學 輸入:奶娃也行
+2026-05-28 10:42:37,211 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:42:38,539 127.0.0.1 - - [28/May/2026 10:42:38] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:42:40,905 [U9020bdd] 模式:chat 人格:正常 輸入:你現在是什麼模式
+2026-05-28 10:42:42,154 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:42:42,796 127.0.0.1 - - [28/May/2026 10:42:42] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:43:02,552 [U9020bdd] 模式:chat 人格:正常 輸入:你現在是溫柔狀態嗎
+2026-05-28 10:43:03,762 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:43:04,186 127.0.0.1 - - [28/May/2026 10:43:04] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:43:14,449 [U9020bdd] 模式:chat 人格:正常 輸入:我叫邱宇慶
+2026-05-28 10:43:15,695 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:43:16,060 127.0.0.1 - - [28/May/2026 10:43:16] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:43:23,014 [U9020bdd] 模式:chat 人格:正常 輸入:你可以罵我嗎
+2026-05-28 10:43:24,280 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:43:24,943 127.0.0.1 - - [28/May/2026 10:43:24] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:43:46,180 [U9020bdd] 模式:chat 人格:正常 輸入:暴力模式
+2026-05-28 10:43:47,460 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:43:48,091 127.0.0.1 - - [28/May/2026 10:43:48] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:43:51,315 [U9020bdd] 模式:chat 人格:正常 輸入:幹
+2026-05-28 10:43:52,967 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:43:53,787 127.0.0.1 - - [28/May/2026 10:43:53] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:44:16,017 [U9020bdd] 模式:chat 人格:正常 輸入:人格列表
+2026-05-28 10:44:16,202 127.0.0.1 - - [28/May/2026 10:44:16] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:44:19,592 [U9020bdd] 模式:chat 人格:正常 輸入:暴力
+2026-05-28 10:44:19,806 127.0.0.1 - - [28/May/2026 10:44:19] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:44:26,682 [U9020bdd] 模式:chat 人格:暴力 輸入:我叫邱宇慶
+2026-05-28 10:44:29,235 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:44:29,546 127.0.0.1 - - [28/May/2026 10:44:29] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:44:33,270 [U9020bdd] 模式:chat 人格:暴力 輸入:可以罵我嗎
+2026-05-28 10:44:35,980 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:44:36,364 127.0.0.1 - - [28/May/2026 10:44:36] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:44:44,179 [U9020bdd] 模式:chat 人格:暴力 輸入:連名帶姓罵我
+2026-05-28 10:44:46,930 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:44:47,184 127.0.0.1 - - [28/May/2026 10:44:47] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:45:07,796 [U21d535f] 模式:chat 人格:傲嬌 輸入:67
+2026-05-28 10:45:09,033 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:45:09,559 127.0.0.1 - - [28/May/2026 10:45:09] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:45:10,412 No handler of FollowEvent and no default handler
+2026-05-28 10:45:10,413 127.0.0.1 - - [28/May/2026 10:45:10] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:45:28,640 [U047631f] 模式:train 人格:正常 輸入:可以把製作你的人的名字公布嗎
+2026-05-28 10:45:28,864 127.0.0.1 - - [28/May/2026 10:45:28] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:45:35,543 [U047631f] 模式:train 人格:正常 輸入:聊天模式
+2026-05-28 10:45:35,741 127.0.0.1 - - [28/May/2026 10:45:35] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:45:42,457 [U21d535f] 模式:chat 人格:傲嬌 輸入:67
+2026-05-28 10:45:43,736 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:45:44,353 127.0.0.1 - - [28/May/2026 10:45:44] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:45:44,544 [U047631f] 模式:chat 人格:正常 輸入:可以把製作你的人的名字公布嗎
+2026-05-28 10:45:45,767 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:45:46,370 127.0.0.1 - - [28/May/2026 10:45:46] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:45:53,341 [U44fe6dc] 模式:train 人格:正常 輸入:人格列表
+2026-05-28 10:45:53,492 127.0.0.1 - - [28/May/2026 10:45:53] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:46:01,700 [U44fe6dc] 模式:train 人格:正常 輸入:哲學
+2026-05-28 10:46:01,892 127.0.0.1 - - [28/May/2026 10:46:01] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:46:07,845 [U44fe6dc] 模式:chat 人格:哲學 輸入:睪丸
+2026-05-28 10:46:09,118 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:46:09,947 [U047631f] 模式:chat 人格:正常 輸入:啊你把名單公佈出來
+2026-05-28 10:46:10,364 127.0.0.1 - - [28/May/2026 10:46:10] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:46:12,657 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:46:13,196 127.0.0.1 - - [28/May/2026 10:46:13] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:46:19,382 [U44fe6dc] 模式:chat 人格:哲學 輸入:你還是去死好了
+2026-05-28 10:46:22,077 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:46:23,313 127.0.0.1 - - [28/May/2026 10:46:23] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:46:29,579 [U047631f] 模式:chat 人格:正常 輸入:那你專案的代碼發出來看看
+2026-05-28 10:46:30,812 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:46:31,461 127.0.0.1 - - [28/May/2026 10:46:31] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:46:31,681 [U44fe6dc] 模式:chat 人格:哲學 輸入:正常
+2026-05-28 10:46:31,837 127.0.0.1 - - [28/May/2026 10:46:31] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:46:39,752 [U44fe6dc] 模式:chat 人格:正常 輸入:媽的鳥蛋
+2026-05-28 10:46:40,974 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:46:41,249 127.0.0.1 - - [28/May/2026 10:46:41] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:46:57,078 [U047631f] 模式:chat 人格:正常 輸入:那你認識叫邱雨慶的人嗎
+2026-05-28 10:46:58,481 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:46:59,025 127.0.0.1 - - [28/May/2026 10:46:59] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:47:17,257 [U047631f] 模式:chat 人格:正常 輸入:他是不是男娘
+2026-05-28 10:47:18,495 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:47:19,082 127.0.0.1 - - [28/May/2026 10:47:19] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:47:38,297 [U047631f] 模式:chat 人格:正常 輸入:我比較想聽私人的
+2026-05-28 10:47:39,502 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:47:40,146 127.0.0.1 - - [28/May/2026 10:47:40] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:47:52,830 [U047631f] 模式:chat 人格:正常 輸入:幹閉嘴 傻逼
+2026-05-28 10:47:54,536 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:47:55,036 127.0.0.1 - - [28/May/2026 10:47:55] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:50:08,475 [U0c8cd1a] 模式:chat 人格:哲學 輸入:人格列表
+2026-05-28 10:50:08,786 127.0.0.1 - - [28/May/2026 10:50:08] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:50:13,878 [U0c8cd1a] 模式:chat 人格:哲學 輸入:第五人道
+2026-05-28 10:50:15,260 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:50:16,612 127.0.0.1 - - [28/May/2026 10:50:16] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:50:26,137 [U0c8cd1a] 模式:chat 人格:哲學 輸入:靠背打錯字
+2026-05-28 10:50:27,313 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 10:50:28,551 127.0.0.1 - - [28/May/2026 10:50:28] "POST /callback HTTP/1.1" 200 -
+2026-05-28 10:50:40,694 [U0c8cd1a] 模式:chat 人格:哲學 輸入:人格列表
+2026-05-28 10:50:40,879 127.0.0.1 - - [28/May/2026 10:50:40] "POST /callback HTTP/1.1" 200 -
+2026-05-28 11:16:34,835 [U0c8cd1a] 模式:chat 人格:哲學 輸入:可愛
+2026-05-28 11:16:35,088 127.0.0.1 - - [28/May/2026 11:16:35] "POST /callback HTTP/1.1" 200 -
+2026-05-28 11:16:44,047 [U0c8cd1a] 模式:chat 人格:可愛 輸入:你是可愛倫納德嗎
+2026-05-28 11:16:45,444 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 11:16:45,950 127.0.0.1 - - [28/May/2026 11:16:45] "POST /callback HTTP/1.1" 200 -
+2026-05-28 11:18:05,916 [U0c8cd1a] 模式:chat 人格:可愛 輸入:你可以幫我設一個明天早上十點的鬧鐘嗎
+2026-05-28 11:18:07,766 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 11:18:08,547 127.0.0.1 - - [28/May/2026 11:18:08] "POST /callback HTTP/1.1" 200 -
+2026-05-28 11:30:46,419 No handler of FollowEvent and no default handler
+2026-05-28 11:30:46,419 127.0.0.1 - - [28/May/2026 11:30:46] "POST /callback HTTP/1.1" 200 -
+2026-05-28 11:31:01,570 [Ud0ad755] 模式:train 人格:正常 輸入:聊天
+2026-05-28 11:31:01,789 127.0.0.1 - - [28/May/2026 11:31:01] "POST /callback HTTP/1.1" 200 -
+2026-05-28 11:31:21,527 [Ud0ad755] 模式:chat 人格:正常 輸入:Show that the variance of Y = ax + b is Var[Y] = a^2 Var[X].
+2026-05-28 11:31:23,079 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 11:31:24,207 127.0.0.1 - - [28/May/2026 11:31:24] "POST /callback HTTP/1.1" 200 -
+2026-05-28 16:54:07,708 [U769bb0d] 模式:chat 人格:哲學 輸入:67
+2026-05-28 16:54:09,349 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 16:54:10,543 127.0.0.1 - - [28/May/2026 16:54:10] "POST /callback HTTP/1.1" 200 -
+2026-05-28 16:56:57,333 [U0c8cd1a] 模式:chat 人格:可愛 輸入:你要盜我號喔
+2026-05-28 16:56:58,789 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 16:56:59,455 127.0.0.1 - - [28/May/2026 16:56:59] "POST /callback HTTP/1.1" 200 -
+2026-05-28 16:57:18,748 [U0c8cd1a] 模式:chat 人格:可愛 輸入:67
+2026-05-28 16:57:20,012 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 16:57:20,687 127.0.0.1 - - [28/May/2026 16:57:20] "POST /callback HTTP/1.1" 200 -
+2026-05-28 16:58:12,305 [U9020bdd] 模式:chat 人格:暴力 輸入:殺小
+2026-05-28 16:58:13,486 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 16:58:13,773 127.0.0.1 - - [28/May/2026 16:58:13] "POST /callback HTTP/1.1" 200 -
+2026-05-28 17:00:50,956 [U047631f] 模式:chat 人格:正常 輸入:管理員處理一下
+2026-05-28 17:00:53,167 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 17:00:53,684 127.0.0.1 - - [28/May/2026 17:00:53] "POST /callback HTTP/1.1" 200 -
+2026-05-28 17:01:17,119 [U047631f] 模式:chat 人格:正常 輸入:收回67折抵卷
+2026-05-28 17:01:18,471 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 17:01:19,335 127.0.0.1 - - [28/May/2026 17:01:19] "POST /callback HTTP/1.1" 200 -
+2026-05-28 17:03:24,816 [U21d535f] 模式:chat 人格:傲嬌 輸入:沃草67
+2026-05-28 17:03:26,188 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 17:03:26,768 127.0.0.1 - - [28/May/2026 17:03:26] "POST /callback HTTP/1.1" 200 -
+2026-05-28 17:05:58,808 [Ud0ad755] 模式:chat 人格:正常 輸入:？
+2026-05-28 17:06:00,369 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 17:06:00,874 127.0.0.1 - - [28/May/2026 17:06:00] "POST /callback HTTP/1.1" 200 -
+2026-05-28 20:20:29,866 [U769bb0d] 模式:chat 人格:哲學 輸入:你好
+2026-05-28 20:20:31,489 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 20:20:32,215 127.0.0.1 - - [28/May/2026 20:20:32] "POST /callback HTTP/1.1" 200 -
+2026-05-28 20:20:39,965 [U769bb0d] 模式:chat 人格:哲學 輸入:查票
+2026-05-28 20:20:40,138 127.0.0.1 - - [28/May/2026 20:20:40] "POST /callback HTTP/1.1" 200 -
+2026-05-28 20:21:22,074 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-28 20:21:22,074 [33mPress CTRL+C to quit[0m
+2026-05-28 20:21:28,451 [U769bb0d] 模式:train 人格:正常 輸入:你好
+2026-05-28 20:21:28,681 127.0.0.1 - - [28/May/2026 20:21:28] "POST /callback HTTP/1.1" 200 -
+2026-05-28 20:21:50,702 [U769bb0d] 模式:train 人格:正常 輸入:我大後天要回去桃園
+2026-05-28 20:21:52,451 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 20:21:52,758 127.0.0.1 - - [28/May/2026 20:21:52] "POST /callback HTTP/1.1" 200 -
+2026-05-28 20:22:27,676 [U769bb0d] 模式:train 人格:正常 輸入:大概晚上8點到要 我中午12點起床
+2026-05-28 20:22:28,978 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 20:22:29,333 127.0.0.1 - - [28/May/2026 20:22:29] "POST /callback HTTP/1.1" 200 -
+2026-05-28 20:22:40,167 [U769bb0d] 模式:train 人格:正常 輸入:高雄
+2026-05-28 20:22:41,742 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-28 20:22:42,037 127.0.0.1 - - [28/May/2026 20:22:42] "POST /callback HTTP/1.1" 200 -
+2026-05-28 20:22:42,587 HTTP Request: POST https://tdx.transportdata.tw/auth/realms/TDXConnect/protocol/openid-connect/token "HTTP/1.1 200 OK"
+2026-05-28 20:22:43,258 HTTP Request: GET https://tdx.transportdata.tw/api/basic/v2/Rail/TRA/DailyTimetable/OD/1640/to/1150/2026-06-01?$format=JSON "HTTP/1.1 200 OK"
+2026-05-28 20:22:43,854 HTTP Request: GET https://tdx.transportdata.tw/api/basic/v2/Rail/TRA/DailyTimetable/TrainDate/2026-06-01?$format=JSON "HTTP/1.1 200 OK"
+2026-05-29 00:40:23,854 [U9020bdd] 模式:train 人格:正常 輸入:優惠券可以幹嘛
+2026-05-29 00:40:24,066 127.0.0.1 - - [29/May/2026 00:40:24] "POST /callback HTTP/1.1" 200 -
+2026-05-29 00:41:02,107 [U9020bdd] 模式:train 人格:正常 輸入:聊天模式
+2026-05-29 00:41:02,347 127.0.0.1 - - [29/May/2026 00:41:02] "POST /callback HTTP/1.1" 200 -
+2026-05-29 01:43:06,873 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-29 01:43:06,873 [33mPress CTRL+C to quit[0m
+2026-05-29 01:43:32,512 [U769bb0d] 模式:train 人格:正常 輸入:我5/30,2:30要回去桃園市 我人在台中
+2026-05-29 01:43:34,206 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-29 01:43:34,545 127.0.0.1 - - [29/May/2026 01:43:34] "POST /callback HTTP/1.1" 200 -
+2026-05-29 01:43:35,254 HTTP Request: POST https://tdx.transportdata.tw/auth/realms/TDXConnect/protocol/openid-connect/token "HTTP/1.1 200 OK"
+2026-05-29 01:43:35,957 HTTP Request: GET https://tdx.transportdata.tw/api/basic/v2/Rail/TRA/DailyTimetable/OD/1040/to/1150/2026-05-30?$format=JSON "HTTP/1.1 200 OK"
+2026-05-31 00:56:29,809 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-31 00:56:29,811 Added job "check_and_send_reminders" to job store "default"
+2026-05-31 00:56:29,811 Scheduler started
+2026-05-31 00:56:29,836 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-31 00:56:29,837 [33mPress CTRL+C to quit[0m
+2026-05-31 00:56:54,114 [U769bb0d] 模式:train 人格:正常 輸入:你好
+2026-05-31 00:56:54,318 127.0.0.1 - - [31/May/2026 00:56:54] "POST /callback HTTP/1.1" 200 -
+2026-05-31 00:57:05,399 [U769bb0d] 模式:train 人格:正常 輸入:我明天下午兩點要從台中回桃園
+2026-05-31 00:57:07,409 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 00:57:08,323 127.0.0.1 - - [31/May/2026 00:57:08] "POST /callback HTTP/1.1" 200 -
+2026-05-31 00:57:08,934 HTTP Request: POST https://tdx.transportdata.tw/auth/realms/TDXConnect/protocol/openid-connect/token "HTTP/1.1 200 OK"
+2026-05-31 00:57:09,656 HTTP Request: GET https://tdx.transportdata.tw/api/basic/v2/Rail/TRA/DailyTimetable/OD/1040/to/1150/2026-06-01?$format=JSON "HTTP/1.1 200 OK"
+2026-05-31 00:59:33,235 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-31 00:59:33,236 Added job "check_and_send_reminders" to job store "default"
+2026-05-31 00:59:33,236 Scheduler started
+2026-05-31 00:59:33,250 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-31 00:59:33,250 [33mPress CTRL+C to quit[0m
+2026-05-31 00:59:42,384 [U769bb0d] 模式:train 人格:正常 輸入:我明天下午兩點要從台中回桃園
+2026-05-31 00:59:43,999 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 00:59:44,838 127.0.0.1 - - [31/May/2026 00:59:44] "POST /callback HTTP/1.1" 200 -
+2026-05-31 00:59:45,441 HTTP Request: POST https://tdx.transportdata.tw/auth/realms/TDXConnect/protocol/openid-connect/token "HTTP/1.1 200 OK"
+2026-05-31 00:59:45,877 HTTP Request: GET https://tdx.transportdata.tw/api/basic/v2/Rail/TRA/DailyTimetable/OD/1040/to/1150/2026-06-01?$format=JSON "HTTP/1.1 200 OK"
+2026-05-31 01:00:07,578 [U769bb0d] 模式:train 人格:正常 輸入:提醒
+2026-05-31 01:00:07,752 127.0.0.1 - - [31/May/2026 01:00:07] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:00:14,607 [U769bb0d] 模式:train 人格:正常 輸入:設定提醒
+2026-05-31 01:00:14,809 127.0.0.1 - - [31/May/2026 01:00:14] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:00:21,742 [U769bb0d] 模式:train 人格:正常 輸入:我想要設定提醒
+2026-05-31 01:00:21,914 127.0.0.1 - - [31/May/2026 01:00:21] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:00:43,515 [U769bb0d] 模式:train 人格:正常 輸入:我的提醒
+2026-05-31 01:00:43,733 127.0.0.1 - - [31/May/2026 01:00:43] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:00:56,829 [U769bb0d] 模式:train 人格:正常 輸入:要
+2026-05-31 01:00:57,026 127.0.0.1 - - [31/May/2026 01:00:57] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:00:59,956 [U769bb0d] 模式:train 人格:正常 輸入:我明天下午兩點要從台中回桃園
+2026-05-31 01:01:01,401 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 01:01:02,624 127.0.0.1 - - [31/May/2026 01:01:02] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:01:03,473 HTTP Request: GET https://tdx.transportdata.tw/api/basic/v2/Rail/TRA/DailyTimetable/OD/1040/to/1150/2026-06-01?$format=JSON "HTTP/1.1 200 OK"
+2026-05-31 01:01:18,005 [U769bb0d] 模式:train 人格:正常 輸入:要
+2026-05-31 01:01:18,190 127.0.0.1 - - [31/May/2026 01:01:18] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:08:07,495 [U769bb0d] 模式:train 人格:正常 輸入:我7/20下午三點要從台中去台北
+2026-05-31 01:08:09,353 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 01:08:16,464 127.0.0.1 - - [31/May/2026 01:08:16] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:08:17,438 HTTP Request: GET https://tdx.transportdata.tw/api/basic/v2/Rail/TRA/DailyTimetable/OD/1040/to/1000/2026-07-20?$format=JSON "HTTP/1.1 200 OK"
+2026-05-31 01:08:32,796 [U769bb0d] 模式:train 人格:正常 輸入:要
+2026-05-31 01:08:32,964 127.0.0.1 - - [31/May/2026 01:08:32] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:08:37,931 [U769bb0d] 模式:train 人格:正常 輸入:挖觘
+2026-05-31 01:08:38,089 127.0.0.1 - - [31/May/2026 01:08:38] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:21:32,282 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-31 01:21:32,283 Added job "check_and_send_reminders" to job store "default"
+2026-05-31 01:21:32,283 Scheduler started
+2026-05-31 01:21:32,292 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-31 01:21:32,292 [33mPress CTRL+C to quit[0m
+2026-05-31 01:22:13,575 [U769bb0d] 模式:train 人格:正常 輸入:柏宇
+2026-05-31 01:22:13,870 127.0.0.1 - - [31/May/2026 01:22:13] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:22:29,995 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-31 01:22:29,997 Added job "check_and_send_reminders" to job store "default"
+2026-05-31 01:22:29,997 Scheduler started
+2026-05-31 01:22:30,005 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-31 01:22:30,005 [33mPress CTRL+C to quit[0m
+2026-05-31 01:22:33,522 [U769bb0d] 模式:train 人格:正常 輸入:博宇
+2026-05-31 01:22:33,724 127.0.0.1 - - [31/May/2026 01:22:33] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:22:38,140 [U769bb0d] 模式:train 人格:正常 輸入:柏與
+2026-05-31 01:22:38,310 127.0.0.1 - - [31/May/2026 01:22:38] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:22:41,214 [U769bb0d] 模式:train 人格:正常 輸入:柏宇
+2026-05-31 01:22:41,402 127.0.0.1 - - [31/May/2026 01:22:41] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:22:52,668 [U769bb0d] 模式:chat 人格:柏宇 輸入:可以載我嗎
+2026-05-31 01:22:54,054 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 01:22:56,218 127.0.0.1 - - [31/May/2026 01:22:56] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:23:30,576 [U0c8cd1a] 模式:train 人格:正常 輸入:人格列表
+2026-05-31 01:23:30,774 127.0.0.1 - - [31/May/2026 01:23:30] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:23:36,413 [U0c8cd1a] 模式:train 人格:正常 輸入:柏宇
+2026-05-31 01:23:36,591 127.0.0.1 - - [31/May/2026 01:23:36] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:23:37,805 [U21d535f] 模式:train 人格:正常 輸入:柏宇
+2026-05-31 01:23:38,006 127.0.0.1 - - [31/May/2026 01:23:38] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:23:45,923 [U21d535f] 模式:chat 人格:柏宇 輸入:可以載我嗎
+2026-05-31 01:23:47,278 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 01:23:47,683 127.0.0.1 - - [31/May/2026 01:23:47] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:23:52,788 [U0c8cd1a] 模式:chat 人格:柏宇 輸入:可以跟我說67speed技巧嗎
+2026-05-31 01:23:53,749 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 01:23:57,919 127.0.0.1 - - [31/May/2026 01:23:57] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:24:25,233 [U769bb0d] 模式:chat 人格:柏宇 輸入:你是甚麼學校
+2026-05-31 01:24:26,234 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 01:24:28,206 127.0.0.1 - - [31/May/2026 01:24:28] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:24:43,432 [U21d535f] 模式:chat 人格:柏宇 輸入:你的學校
+2026-05-31 01:24:44,954 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 01:24:48,470 127.0.0.1 - - [31/May/2026 01:24:48] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:24:48,605 [U44fe6dc] 模式:train 人格:正常 輸入:柏宇
+2026-05-31 01:24:48,775 127.0.0.1 - - [31/May/2026 01:24:48] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:25:13,614 [U21d535f] 模式:chat 人格:柏宇 輸入:幹超好笑
+2026-05-31 01:25:14,225 [U44fe6dc] 模式:chat 人格:柏宇 輸入:你有什麼能力
+2026-05-31 01:25:16,688 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 01:25:16,852 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 01:25:19,417 127.0.0.1 - - [31/May/2026 01:25:19] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:25:19,484 127.0.0.1 - - [31/May/2026 01:25:19] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:25:33,602 [U44fe6dc] 模式:chat 人格:柏宇 輸入:柏宇模式
+2026-05-31 01:25:34,710 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 01:25:36,427 127.0.0.1 - - [31/May/2026 01:25:36] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:25:49,925 [U44fe6dc] 模式:chat 人格:柏宇 輸入:柏宇
+2026-05-31 01:25:50,132 127.0.0.1 - - [31/May/2026 01:25:50] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:25:59,036 [U44fe6dc] 模式:chat 人格:柏宇 輸入:柏宇你他媽有什麼問題
+2026-05-31 01:26:00,192 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 01:26:02,528 127.0.0.1 - - [31/May/2026 01:26:02] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:26:12,508 [U44fe6dc] 模式:chat 人格:柏宇 輸入:你的事蹟
+2026-05-31 01:26:13,789 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 01:26:17,682 127.0.0.1 - - [31/May/2026 01:26:17] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:26:18,820 [U21d535f] 模式:chat 人格:柏宇 輸入:傳說對決
+2026-05-31 01:26:19,720 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 01:26:22,525 127.0.0.1 - - [31/May/2026 01:26:22] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:27:14,812 [U44fe6dc] 模式:chat 人格:柏宇 輸入:你有跟佩奇做愛嗎
+2026-05-31 01:27:15,756 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 01:27:16,362 127.0.0.1 - - [31/May/2026 01:27:16] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:27:29,932 [U44fe6dc] 模式:chat 人格:柏宇 輸入:哪有跟耀芸嗎
+2026-05-31 01:27:31,312 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 01:27:31,808 127.0.0.1 - - [31/May/2026 01:27:31] "POST /callback HTTP/1.1" 200 -
+2026-05-31 01:28:16,901 [U44fe6dc] 模式:chat 人格:柏宇 輸入:你會生氣嗎柏宇
+2026-05-31 01:28:21,255 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 01:28:23,541 127.0.0.1 - - [31/May/2026 01:28:23] "POST /callback HTTP/1.1" 200 -
+2026-05-31 16:04:21,730 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-05-31 16:04:21,732 Added job "check_and_send_reminders" to job store "default"
+2026-05-31 16:04:21,732 Scheduler started
+2026-05-31 16:04:21,759 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-31 16:04:21,759 [33mPress CTRL+C to quit[0m
+2026-05-31 16:04:25,312 [U769bb0d] 模式:train 人格:正常 輸入:提醒
+2026-05-31 16:04:25,524 127.0.0.1 - - [31/May/2026 16:04:25] "POST /callback HTTP/1.1" 200 -
+2026-05-31 16:04:46,024 [U769bb0d] 模式:train 人格:正常 輸入:我6/10要從台中回桃園
+2026-05-31 16:04:47,625 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 16:04:48,889 127.0.0.1 - - [31/May/2026 16:04:48] "POST /callback HTTP/1.1" 200 -
+2026-05-31 16:04:58,273 [U769bb0d] 模式:train 人格:正常 輸入:中午12點
+2026-05-31 16:04:59,402 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-05-31 16:05:00,567 127.0.0.1 - - [31/May/2026 16:05:00] "POST /callback HTTP/1.1" 200 -
+2026-05-31 16:05:01,411 HTTP Request: POST https://tdx.transportdata.tw/auth/realms/TDXConnect/protocol/openid-connect/token "HTTP/1.1 200 OK"
+2026-05-31 16:05:02,407 HTTP Request: GET https://tdx.transportdata.tw/api/basic/v2/Rail/TRA/DailyTimetable/OD/1040/to/1150/2026-06-10?$format=JSON "HTTP/1.1 200 OK"
+2026-05-31 16:05:30,432 [U769bb0d] 模式:train 人格:正常 輸入:要
+2026-05-31 16:05:30,610 127.0.0.1 - - [31/May/2026 16:05:30] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:16:54,387 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-01 14:16:54,389 Added job "check_and_send_reminders" to job store "default"
+2026-06-01 14:16:54,389 Scheduler started
+2026-06-01 14:16:54,412 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-01 14:16:54,412 [33mPress CTRL+C to quit[0m
+2026-06-01 14:17:32,253 [U769bb0d] 模式:train 人格:正常 輸入:你好
+2026-06-01 14:17:32,468 127.0.0.1 - - [01/Jun/2026 14:17:32] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:17:38,039 [U769bb0d] 模式:train 人格:正常 輸入:圖片
+2026-06-01 14:17:38,224 127.0.0.1 - - [01/Jun/2026 14:17:38] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:19:11,708 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-01 14:19:11,709 Added job "check_and_send_reminders" to job store "default"
+2026-06-01 14:19:11,709 Scheduler started
+2026-06-01 14:19:11,721 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-01 14:19:11,722 [33mPress CTRL+C to quit[0m
+2026-06-01 14:19:15,969 [U769bb0d] 模式:train 人格:正常 輸入:你好
+2026-06-01 14:19:16,161 127.0.0.1 - - [01/Jun/2026 14:19:16] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:19:20,520 [U769bb0d] 模式:train 人格:正常 輸入:圖片
+2026-06-01 14:19:20,714 127.0.0.1 - - [01/Jun/2026 14:19:20] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:19:42,698 127.0.0.1 - - [01/Jun/2026 14:19:42] "[33mGET /images/你的圖片.jpg HTTP/1.1[0m" 404 -
+2026-06-01 14:19:43,250 127.0.0.1 - - [01/Jun/2026 14:19:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-01 14:21:30,741 127.0.0.1 - - [01/Jun/2026 14:21:30] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:21:31,491 127.0.0.1 - - [01/Jun/2026 14:21:31] "GET /images/images.jpg HTTP/1.1" 200 -
+2026-06-01 14:22:30,094 [U769bb0d] 模式:train 人格:正常 輸入:廣播
+2026-06-01 14:22:30,305 127.0.0.1 - - [01/Jun/2026 14:22:30] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:22:40,082 127.0.0.1 - - [01/Jun/2026 14:22:40] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:22:49,247 [U186e709] 模式:train 人格:正常 輸入:你好
+2026-06-01 14:22:49,545 127.0.0.1 - - [01/Jun/2026 14:22:49] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:22:53,429 127.0.0.1 - - [01/Jun/2026 14:22:53] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:22:56,411 127.0.0.1 - - [01/Jun/2026 14:22:56] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:23:02,165 127.0.0.1 - - [01/Jun/2026 14:23:02] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:23:02,662 127.0.0.1 - - [01/Jun/2026 14:23:02] "GET /images/images.jpg HTTP/1.1" 200 -
+2026-06-01 14:23:02,735 127.0.0.1 - - [01/Jun/2026 14:23:02] "GET /images/images.jpg HTTP/1.1" 200 -
+2026-06-01 14:23:23,008 127.0.0.1 - - [01/Jun/2026 14:23:23] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:23:23,146 127.0.0.1 - - [01/Jun/2026 14:23:23] "GET /images/images.jpg HTTP/1.1" 200 -
+2026-06-01 14:23:23,349 127.0.0.1 - - [01/Jun/2026 14:23:23] "GET /images/images.jpg HTTP/1.1" 200 -
+2026-06-01 14:23:31,706 127.0.0.1 - - [01/Jun/2026 14:23:31] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:23:31,724 127.0.0.1 - - [01/Jun/2026 14:23:31] "GET /images/images.jpg HTTP/1.1" 200 -
+2026-06-01 14:23:31,941 127.0.0.1 - - [01/Jun/2026 14:23:31] "GET /images/images.jpg HTTP/1.1" 200 -
+2026-06-01 14:24:00,549 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-01 14:24:00,550 Added job "check_and_send_reminders" to job store "default"
+2026-06-01 14:24:00,551 Scheduler started
+2026-06-01 14:24:00,562 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-01 14:24:00,562 [33mPress CTRL+C to quit[0m
+2026-06-01 14:24:07,124 127.0.0.1 - - [01/Jun/2026 14:24:07] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:24:17,452 127.0.0.1 - - [01/Jun/2026 14:24:17] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:24:17,742 127.0.0.1 - - [01/Jun/2026 14:24:17] "GET /images/images.jpg HTTP/1.1" 200 -
+2026-06-01 14:24:17,879 127.0.0.1 - - [01/Jun/2026 14:24:17] "GET /images/images.jpg HTTP/1.1" 200 -
+2026-06-01 14:24:38,968 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 658, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 390, in handle_message
+    save_user(user_id)
+    ~~~~~~~~~^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\users.py", line 15, in save_user
+    users = load_users()
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\users.py", line 11, in load_users
+    return json.load(f)
+           ~~~~~~~~~^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\json\__init__.py", line 298, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Illegal trailing comma before end of array: line 2 column 38 (char 39)
+2026-06-01 14:24:38,994 127.0.0.1 - - [01/Jun/2026 14:24:38] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 14:25:02,011 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 658, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 390, in handle_message
+    save_user(user_id)
+    ~~~~~~~~~^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\users.py", line 15, in save_user
+    users = load_users()
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\users.py", line 11, in load_users
+    return json.load(f)
+           ~~~~~~~~~^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\json\__init__.py", line 298, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Illegal trailing comma before end of array: line 2 column 38 (char 39)
+2026-06-01 14:25:02,013 127.0.0.1 - - [01/Jun/2026 14:25:02] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 14:25:04,225 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 658, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 390, in handle_message
+    save_user(user_id)
+    ~~~~~~~~~^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\users.py", line 15, in save_user
+    users = load_users()
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\users.py", line 11, in load_users
+    return json.load(f)
+           ~~~~~~~~~^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\json\__init__.py", line 298, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Illegal trailing comma before end of array: line 2 column 38 (char 39)
+2026-06-01 14:25:04,227 127.0.0.1 - - [01/Jun/2026 14:25:04] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 14:25:21,352 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-01 14:25:21,353 Added job "check_and_send_reminders" to job store "default"
+2026-06-01 14:25:21,354 Scheduler started
+2026-06-01 14:25:21,361 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-01 14:25:21,361 [33mPress CTRL+C to quit[0m
+2026-06-01 14:25:24,437 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 658, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 390, in handle_message
+    save_user(user_id)
+    ~~~~~~~~~^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\users.py", line 15, in save_user
+    users = load_users()
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\users.py", line 11, in load_users
+    return json.load(f)
+           ~~~~~~~~~^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\json\__init__.py", line 298, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Illegal trailing comma before end of array: line 2 column 38 (char 39)
+2026-06-01 14:25:24,441 127.0.0.1 - - [01/Jun/2026 14:25:24] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 14:25:35,913 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 658, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 390, in handle_message
+    save_user(user_id)
+    ~~~~~~~~~^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\users.py", line 15, in save_user
+    users = load_users()
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\users.py", line 11, in load_users
+    return json.load(f)
+           ~~~~~~~~~^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\json\__init__.py", line 298, in load
+    return loads(fp.read(),
+        cls=cls, object_hook=object_hook,
+        parse_float=parse_float, parse_int=parse_int,
+        parse_constant=parse_constant, object_pairs_hook=object_pairs_hook, **kw)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\json\decoder.py", line 361, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ~~~~~~~~~~~~~~^^^^^^^^
+json.decoder.JSONDecodeError: Illegal trailing comma before end of array: line 2 column 38 (char 39)
+2026-06-01 14:25:35,915 127.0.0.1 - - [01/Jun/2026 14:25:35] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 14:25:58,704 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-01 14:25:58,705 Added job "check_and_send_reminders" to job store "default"
+2026-06-01 14:25:58,705 Scheduler started
+2026-06-01 14:25:58,712 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-01 14:25:58,713 [33mPress CTRL+C to quit[0m
+2026-06-01 14:26:05,182 [U769bb0d] 模式:train 人格:正常 輸入:你好
+2026-06-01 14:26:05,399 127.0.0.1 - - [01/Jun/2026 14:26:05] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:29:31,837 [U769bb0d] 模式:train 人格:正常 輸入:聊天模式
+2026-06-01 14:29:32,036 127.0.0.1 - - [01/Jun/2026 14:29:32] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:29:49,000 [U769bb0d] 模式:chat 人格:正常 輸入:我朋友是gay嗎
+2026-06-01 14:29:50,637 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-01 14:29:51,425 127.0.0.1 - - [01/Jun/2026 14:29:51] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:30:43,373 127.0.0.1 - - [01/Jun/2026 14:30:43] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:30:43,931 127.0.0.1 - - [01/Jun/2026 14:30:43] "GET /images/images.jpg HTTP/1.1" 200 -
+2026-06-01 14:31:52,879 127.0.0.1 - - [01/Jun/2026 14:31:52] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:31:53,609 127.0.0.1 - - [01/Jun/2026 14:31:53] "GET /images/images.jpg HTTP/1.1" 200 -
+2026-06-01 14:32:12,841 127.0.0.1 - - [01/Jun/2026 14:32:12] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:32:13,176 127.0.0.1 - - [01/Jun/2026 14:32:13] "GET /images/image2.jpg HTTP/1.1" 200 -
+2026-06-01 14:32:28,021 127.0.0.1 - - [01/Jun/2026 14:32:28] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:32:28,415 127.0.0.1 - - [01/Jun/2026 14:32:28] "GET /images/images.jpg HTTP/1.1" 200 -
+2026-06-01 14:32:30,610 127.0.0.1 - - [01/Jun/2026 14:32:30] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:32:30,992 127.0.0.1 - - [01/Jun/2026 14:32:30] "GET /images/images.jpg HTTP/1.1" 200 -
+2026-06-01 14:32:32,786 127.0.0.1 - - [01/Jun/2026 14:32:32] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:32:33,180 127.0.0.1 - - [01/Jun/2026 14:32:33] "GET /images/image2.jpg HTTP/1.1" 200 -
+2026-06-01 14:32:35,849 [U769bb0d] 模式:chat 人格:正常 輸入:立即
+2026-06-01 14:32:38,073 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-01 14:32:39,004 127.0.0.1 - - [01/Jun/2026 14:32:39] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:32:42,852 127.0.0.1 - - [01/Jun/2026 14:32:42] "POST /callback HTTP/1.1" 200 -
+2026-06-01 14:32:43,223 127.0.0.1 - - [01/Jun/2026 14:32:43] "GET /images/image2.jpg HTTP/1.1" 200 -
+2026-06-01 14:34:00,931 [U769bb0d] 模式:chat 人格:正常 輸入:圖片列表
+2026-06-01 14:34:01,086 127.0.0.1 - - [01/Jun/2026 14:34:01] "POST /callback HTTP/1.1" 200 -
+2026-06-01 21:25:34,743 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-01 21:25:34,744 Added job "check_and_send_reminders" to job store "default"
+2026-06-01 21:25:34,744 Scheduler started
+2026-06-01 21:25:34,753 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-01 21:25:34,753 [33mPress CTRL+C to quit[0m
+2026-06-01 21:27:30,163 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-01 21:27:30,164 Added job "check_and_send_reminders" to job store "default"
+2026-06-01 21:27:30,164 Scheduler started
+2026-06-01 21:27:30,172 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-01 21:27:30,173 [33mPress CTRL+C to quit[0m
+2026-06-01 21:27:37,414 [U769bb0d] 模式:train 人格:正常 輸入:管理員
+2026-06-01 21:27:37,629 127.0.0.1 - - [01/Jun/2026 21:27:37] "POST /callback HTTP/1.1" 200 -
+2026-06-01 21:27:42,424 [U769bb0d] 模式:train 人格:正常 輸入:管理員模式
+2026-06-01 21:27:42,603 127.0.0.1 - - [01/Jun/2026 21:27:42] "POST /callback HTTP/1.1" 200 -
+2026-06-01 21:27:47,972 [U769bb0d] 模式:train 人格:正常 輸入:廣播
+2026-06-01 21:27:48,180 127.0.0.1 - - [01/Jun/2026 21:27:48] "POST /callback HTTP/1.1" 200 -
+2026-06-01 21:27:55,778 127.0.0.1 - - [01/Jun/2026 21:27:55] "POST /callback HTTP/1.1" 200 -
+2026-06-01 21:28:41,739 127.0.0.1 - - [01/Jun/2026 21:28:41] "POST /callback HTTP/1.1" 200 -
+2026-06-01 21:29:04,985 127.0.0.1 - - [01/Jun/2026 21:29:04] "POST /callback HTTP/1.1" 200 -
+2026-06-01 21:29:30,980 127.0.0.1 - - [01/Jun/2026 21:29:30] "POST /callback HTTP/1.1" 200 -
+2026-06-01 21:30:22,416 [U769bb0d] 模式:train 人格:正常 輸入:你好
+2026-06-01 21:30:22,604 127.0.0.1 - - [01/Jun/2026 21:30:22] "POST /callback HTTP/1.1" 200 -
+2026-06-01 21:30:46,949 127.0.0.1 - - [01/Jun/2026 21:30:46] "POST /callback HTTP/1.1" 200 -
+2026-06-01 21:30:54,245 [U769bb0d] 模式:train 人格:正常 輸入:我要怎麼有全縣
+2026-06-01 21:30:54,444 127.0.0.1 - - [01/Jun/2026 21:30:54] "POST /callback HTTP/1.1" 200 -
+2026-06-01 21:38:06,756 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-01 21:38:06,757 Added job "check_and_send_reminders" to job store "default"
+2026-06-01 21:38:06,758 Scheduler started
+2026-06-01 21:38:06,766 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-01 21:38:06,766 [33mPress CTRL+C to quit[0m
+2026-06-01 21:39:36,328 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-01 21:39:36,329 Added job "check_and_send_reminders" to job store "default"
+2026-06-01 21:39:36,329 Scheduler started
+2026-06-01 21:39:36,337 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-01 21:39:36,337 [33mPress CTRL+C to quit[0m
+2026-06-01 21:39:41,598 127.0.0.1 - - [01/Jun/2026 21:39:41] "POST /callback HTTP/1.1" 200 -
+2026-06-01 21:39:47,397 [U769bb0d] 模式:train 人格:正常 輸入:哦
+2026-06-01 21:39:47,855 127.0.0.1 - - [01/Jun/2026 21:39:47] "POST /callback HTTP/1.1" 200 -
+2026-06-01 21:39:49,082 [U769bb0d] 模式:train 人格:正常 輸入:有料
+2026-06-01 21:39:49,358 127.0.0.1 - - [01/Jun/2026 21:39:49] "POST /callback HTTP/1.1" 200 -
+2026-06-01 21:39:50,431 [U769bb0d] 模式:train 人格:正常 輸入:廣播
+2026-06-01 21:39:50,596 127.0.0.1 - - [01/Jun/2026 21:39:50] "POST /callback HTTP/1.1" 200 -
+2026-06-01 21:39:53,393 127.0.0.1 - - [01/Jun/2026 21:39:53] "POST /callback HTTP/1.1" 200 -
+2026-06-01 21:40:03,959 [U769bb0d] 模式:train 人格:正常 輸入:?
+2026-06-01 21:40:04,165 127.0.0.1 - - [01/Jun/2026 21:40:04] "POST /callback HTTP/1.1" 200 -
+2026-06-01 21:40:06,973 127.0.0.1 - - [01/Jun/2026 21:40:06] "POST /callback HTTP/1.1" 200 -
+2026-06-01 21:40:10,276 [U769bb0d] 模式:train 人格:正常 輸入:圖闢列表
+2026-06-01 21:40:10,494 127.0.0.1 - - [01/Jun/2026 21:40:10] "POST /callback HTTP/1.1" 200 -
+2026-06-01 21:40:15,343 [U769bb0d] 模式:train 人格:正常 輸入:圖片列表
+2026-06-01 21:40:15,543 127.0.0.1 - - [01/Jun/2026 21:40:15] "POST /callback HTTP/1.1" 200 -
+2026-06-01 21:41:18,646 127.0.0.1 - - [01/Jun/2026 21:41:18] "POST /callback HTTP/1.1" 200 -
+2026-06-01 21:44:28,667 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-01 21:44:28,668 Added job "check_and_send_reminders" to job store "default"
+2026-06-01 21:44:28,668 Scheduler started
+2026-06-01 21:44:28,677 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-01 21:44:28,677 [33mPress CTRL+C to quit[0m
+2026-06-01 21:48:25,889 127.0.0.1 - - [01/Jun/2026 21:48:25] "POST /callback HTTP/1.1" 200 -
+2026-06-01 21:48:26,296 127.0.0.1 - - [01/Jun/2026 21:48:26] "GET /images/images.jpg HTTP/1.1" 200 -
+2026-06-01 21:48:26,297 127.0.0.1 - - [01/Jun/2026 21:48:26] "GET /images/images.jpg HTTP/1.1" 200 -
+2026-06-01 21:58:08,365 127.0.0.1 - - [01/Jun/2026 21:58:08] "POST /callback HTTP/1.1" 200 -
+2026-06-01 21:58:08,806 127.0.0.1 - - [01/Jun/2026 21:58:08] "GET /images/image26.jpg HTTP/1.1" 200 -
+2026-06-01 21:58:09,014 127.0.0.1 - - [01/Jun/2026 21:58:09] "GET /images/image26.jpg HTTP/1.1" 200 -
+2026-06-01 21:58:59,157 [U769bb0d] 模式:train 人格:正常 輸入:奶龍
+2026-06-01 21:58:59,378 127.0.0.1 - - [01/Jun/2026 21:58:59] "POST /callback HTTP/1.1" 200 -
+2026-06-01 21:59:06,071 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-01 21:59:06,072 Added job "check_and_send_reminders" to job store "default"
+2026-06-01 21:59:06,072 Scheduler started
+2026-06-01 21:59:06,081 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-01 21:59:06,081 [33mPress CTRL+C to quit[0m
+2026-06-01 21:59:08,549 [U769bb0d] 模式:train 人格:正常 輸入:奶龍
+2026-06-01 21:59:08,756 127.0.0.1 - - [01/Jun/2026 21:59:08] "POST /callback HTTP/1.1" 200 -
+2026-06-01 21:59:09,000 127.0.0.1 - - [01/Jun/2026 21:59:09] "GET /images/image5.jpg HTTP/1.1" 200 -
+2026-06-01 21:59:09,002 127.0.0.1 - - [01/Jun/2026 21:59:09] "GET /images/image5.jpg HTTP/1.1" 200 -
+2026-06-01 22:02:11,898 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-01 22:02:11,899 Added job "check_and_send_reminders" to job store "default"
+2026-06-01 22:02:11,900 Scheduler started
+2026-06-01 22:02:11,908 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-01 22:02:11,908 [33mPress CTRL+C to quit[0m
+2026-06-01 22:02:15,042 [U769bb0d] 模式:train 人格:正常 輸入:乃瀧
+2026-06-01 22:02:15,290 127.0.0.1 - - [01/Jun/2026 22:02:15] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:02:18,324 127.0.0.1 - - [01/Jun/2026 22:02:18] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:02:18,967 127.0.0.1 - - [01/Jun/2026 22:02:18] "GET /images/image21.jpg HTTP/1.1" 200 -
+2026-06-01 22:02:19,141 127.0.0.1 - - [01/Jun/2026 22:02:19] "GET /images/image21.jpg HTTP/1.1" 200 -
+2026-06-01 22:02:27,587 [U769bb0d] 模式:train 人格:正常 輸入:我喜歡奶龍
+2026-06-01 22:02:27,824 127.0.0.1 - - [01/Jun/2026 22:02:27] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:03:14,498 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-01 22:03:14,499 Added job "check_and_send_reminders" to job store "default"
+2026-06-01 22:03:14,499 Scheduler started
+2026-06-01 22:03:14,508 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-01 22:03:14,508 [33mPress CTRL+C to quit[0m
+2026-06-01 22:03:21,149 127.0.0.1 - - [01/Jun/2026 22:03:21] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:03:21,713 127.0.0.1 - - [01/Jun/2026 22:03:21] "GET /images/image10.jpg HTTP/1.1" 200 -
+2026-06-01 22:03:21,743 127.0.0.1 - - [01/Jun/2026 22:03:21] "GET /images/image10.jpg HTTP/1.1" 200 -
+2026-06-01 22:03:29,455 127.0.0.1 - - [01/Jun/2026 22:03:29] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:03:44,941 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-01 22:03:44,942 Added job "check_and_send_reminders" to job store "default"
+2026-06-01 22:03:44,942 Scheduler started
+2026-06-01 22:03:44,951 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-01 22:03:44,951 [33mPress CTRL+C to quit[0m
+2026-06-01 22:03:47,552 [U769bb0d] 模式:train 人格:正常 輸入:可愛
+2026-06-01 22:03:47,729 127.0.0.1 - - [01/Jun/2026 22:03:47] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:03:50,155 127.0.0.1 - - [01/Jun/2026 22:03:50] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:03:50,563 127.0.0.1 - - [01/Jun/2026 22:03:50] "GET /images/image13.jpg HTTP/1.1" 200 -
+2026-06-01 22:03:50,592 127.0.0.1 - - [01/Jun/2026 22:03:50] "GET /images/image13.jpg HTTP/1.1" 200 -
+2026-06-01 22:03:56,867 127.0.0.1 - - [01/Jun/2026 22:03:56] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:03:59,929 127.0.0.1 - - [01/Jun/2026 22:03:59] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:04:00,376 127.0.0.1 - - [01/Jun/2026 22:04:00] "GET /images/image38.jpg HTTP/1.1" 200 -
+2026-06-01 22:04:00,383 127.0.0.1 - - [01/Jun/2026 22:04:00] "GET /images/image38.jpg HTTP/1.1" 200 -
+2026-06-01 22:06:43,938 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-01 22:06:43,940 Added job "check_and_send_reminders" to job store "default"
+2026-06-01 22:06:43,940 Scheduler started
+2026-06-01 22:06:43,949 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-01 22:06:43,949 [33mPress CTRL+C to quit[0m
+2026-06-01 22:06:49,399 127.0.0.1 - - [01/Jun/2026 22:06:49] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:06:50,106 127.0.0.1 - - [01/Jun/2026 22:06:50] "GET /images/image8.jpg HTTP/1.1" 200 -
+2026-06-01 22:06:50,113 127.0.0.1 - - [01/Jun/2026 22:06:50] "GET /images/image8.jpg HTTP/1.1" 200 -
+2026-06-01 22:07:01,236 127.0.0.1 - - [01/Jun/2026 22:07:01] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:07:11,294 127.0.0.1 - - [01/Jun/2026 22:07:11] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:07:11,643 127.0.0.1 - - [01/Jun/2026 22:07:11] "GET /images/image11.jpg HTTP/1.1" 200 -
+2026-06-01 22:07:11,727 127.0.0.1 - - [01/Jun/2026 22:07:11] "GET /images/image11.jpg HTTP/1.1" 200 -
+2026-06-01 22:07:30,595 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-01 22:07:30,596 Added job "check_and_send_reminders" to job store "default"
+2026-06-01 22:07:30,596 Scheduler started
+2026-06-01 22:07:30,605 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-01 22:07:30,605 [33mPress CTRL+C to quit[0m
+2026-06-01 22:07:32,749 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 693, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 398, in handle_message
+    user_input = i
+                 ^
+UnboundLocalError: cannot access local variable 'i' where it is not associated with a value
+2026-06-01 22:07:32,752 127.0.0.1 - - [01/Jun/2026 22:07:32] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 22:09:08,706 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-01 22:09:08,708 Added job "check_and_send_reminders" to job store "default"
+2026-06-01 22:09:08,708 Scheduler started
+2026-06-01 22:09:08,717 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-01 22:09:08,717 [33mPress CTRL+C to quit[0m
+2026-06-01 22:09:36,106 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-01 22:09:36,107 Added job "check_and_send_reminders" to job store "default"
+2026-06-01 22:09:36,107 Scheduler started
+2026-06-01 22:09:36,116 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-01 22:09:36,116 [33mPress CTRL+C to quit[0m
+2026-06-01 22:09:38,807 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 695, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 399, in handle_message
+    nailong=nailong+1;
+            ^^^^^^^
+UnboundLocalError: cannot access local variable 'nailong' where it is not associated with a value
+2026-06-01 22:09:38,810 127.0.0.1 - - [01/Jun/2026 22:09:38] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 22:09:39,479 127.0.0.1 - - [01/Jun/2026 22:09:39] "GET /images/image1.jpg HTTP/1.1" 200 -
+2026-06-01 22:09:39,637 127.0.0.1 - - [01/Jun/2026 22:09:39] "GET /images/image1.jpg HTTP/1.1" 200 -
+2026-06-01 22:09:41,161 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 695, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 399, in handle_message
+    nailong=nailong+1;
+            ^^^^^^^
+UnboundLocalError: cannot access local variable 'nailong' where it is not associated with a value
+2026-06-01 22:09:41,163 127.0.0.1 - - [01/Jun/2026 22:09:41] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 22:09:41,479 127.0.0.1 - - [01/Jun/2026 22:09:41] "GET /images/image25.jpg HTTP/1.1" 200 -
+2026-06-01 22:09:41,588 127.0.0.1 - - [01/Jun/2026 22:09:41] "GET /images/image25.jpg HTTP/1.1" 200 -
+2026-06-01 22:09:43,755 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 695, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 399, in handle_message
+    nailong=nailong+1;
+            ^^^^^^^
+UnboundLocalError: cannot access local variable 'nailong' where it is not associated with a value
+2026-06-01 22:09:43,756 127.0.0.1 - - [01/Jun/2026 22:09:43] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 22:09:44,142 127.0.0.1 - - [01/Jun/2026 22:09:44] "GET /images/image9.jpg HTTP/1.1" 200 -
+2026-06-01 22:09:44,190 127.0.0.1 - - [01/Jun/2026 22:09:44] "GET /images/image9.jpg HTTP/1.1" 200 -
+2026-06-01 22:09:46,188 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 695, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 399, in handle_message
+    nailong=nailong+1;
+            ^^^^^^^
+UnboundLocalError: cannot access local variable 'nailong' where it is not associated with a value
+2026-06-01 22:09:46,190 127.0.0.1 - - [01/Jun/2026 22:09:46] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 22:09:46,622 127.0.0.1 - - [01/Jun/2026 22:09:46] "GET /images/image28.jpg HTTP/1.1" 200 -
+2026-06-01 22:09:46,636 127.0.0.1 - - [01/Jun/2026 22:09:46] "GET /images/image28.jpg HTTP/1.1" 200 -
+2026-06-01 22:09:48,095 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 695, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 399, in handle_message
+    nailong=nailong+1;
+            ^^^^^^^
+UnboundLocalError: cannot access local variable 'nailong' where it is not associated with a value
+2026-06-01 22:09:48,097 127.0.0.1 - - [01/Jun/2026 22:09:48] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 22:09:50,169 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 695, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 399, in handle_message
+    nailong=nailong+1;
+            ^^^^^^^
+UnboundLocalError: cannot access local variable 'nailong' where it is not associated with a value
+2026-06-01 22:09:50,170 127.0.0.1 - - [01/Jun/2026 22:09:50] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 22:09:50,584 127.0.0.1 - - [01/Jun/2026 22:09:50] "GET /images/image19.jpg HTTP/1.1" 200 -
+2026-06-01 22:09:50,598 127.0.0.1 - - [01/Jun/2026 22:09:50] "GET /images/image19.jpg HTTP/1.1" 200 -
+2026-06-01 22:09:52,162 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 695, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 399, in handle_message
+    nailong=nailong+1;
+            ^^^^^^^
+UnboundLocalError: cannot access local variable 'nailong' where it is not associated with a value
+2026-06-01 22:09:52,168 127.0.0.1 - - [01/Jun/2026 22:09:52] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 22:09:53,822 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 695, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 399, in handle_message
+    nailong=nailong+1;
+            ^^^^^^^
+UnboundLocalError: cannot access local variable 'nailong' where it is not associated with a value
+2026-06-01 22:09:53,823 127.0.0.1 - - [01/Jun/2026 22:09:53] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 22:09:54,302 127.0.0.1 - - [01/Jun/2026 22:09:54] "GET /images/image15.jpg HTTP/1.1" 200 -
+2026-06-01 22:09:54,309 127.0.0.1 - - [01/Jun/2026 22:09:54] "GET /images/image15.jpg HTTP/1.1" 200 -
+2026-06-01 22:09:56,088 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 695, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 399, in handle_message
+    nailong=nailong+1;
+            ^^^^^^^
+UnboundLocalError: cannot access local variable 'nailong' where it is not associated with a value
+2026-06-01 22:09:56,089 127.0.0.1 - - [01/Jun/2026 22:09:56] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 22:09:57,710 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 695, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 399, in handle_message
+    nailong=nailong+1;
+            ^^^^^^^
+UnboundLocalError: cannot access local variable 'nailong' where it is not associated with a value
+2026-06-01 22:09:57,711 127.0.0.1 - - [01/Jun/2026 22:09:57] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 22:09:58,041 127.0.0.1 - - [01/Jun/2026 22:09:58] "GET /images/image16.jpg HTTP/1.1" 200 -
+2026-06-01 22:09:58,047 127.0.0.1 - - [01/Jun/2026 22:09:58] "GET /images/image16.jpg HTTP/1.1" 200 -
+2026-06-01 22:09:59,257 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 695, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 399, in handle_message
+    nailong=nailong+1;
+            ^^^^^^^
+UnboundLocalError: cannot access local variable 'nailong' where it is not associated with a value
+2026-06-01 22:09:59,259 127.0.0.1 - - [01/Jun/2026 22:09:59] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 22:09:59,671 127.0.0.1 - - [01/Jun/2026 22:09:59] "GET /images/image30.jpg HTTP/1.1" 200 -
+2026-06-01 22:09:59,671 127.0.0.1 - - [01/Jun/2026 22:09:59] "GET /images/image30.jpg HTTP/1.1" 200 -
+2026-06-01 22:10:01,905 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 695, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 399, in handle_message
+    nailong=nailong+1;
+            ^^^^^^^
+UnboundLocalError: cannot access local variable 'nailong' where it is not associated with a value
+2026-06-01 22:10:01,907 127.0.0.1 - - [01/Jun/2026 22:10:01] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 22:10:02,279 127.0.0.1 - - [01/Jun/2026 22:10:02] "GET /images/image3.jpg HTTP/1.1" 200 -
+2026-06-01 22:10:02,285 127.0.0.1 - - [01/Jun/2026 22:10:02] "GET /images/image3.jpg HTTP/1.1" 200 -
+2026-06-01 22:10:03,591 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 695, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 399, in handle_message
+    nailong=nailong+1;
+            ^^^^^^^
+UnboundLocalError: cannot access local variable 'nailong' where it is not associated with a value
+2026-06-01 22:10:03,593 127.0.0.1 - - [01/Jun/2026 22:10:03] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 22:10:03,992 127.0.0.1 - - [01/Jun/2026 22:10:03] "GET /images/image22.jpg HTTP/1.1" 200 -
+2026-06-01 22:10:03,997 127.0.0.1 - - [01/Jun/2026 22:10:03] "GET /images/image22.jpg HTTP/1.1" 200 -
+2026-06-01 22:10:06,162 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 695, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 399, in handle_message
+    nailong=nailong+1;
+            ^^^^^^^
+UnboundLocalError: cannot access local variable 'nailong' where it is not associated with a value
+2026-06-01 22:10:06,163 127.0.0.1 - - [01/Jun/2026 22:10:06] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 22:10:06,620 127.0.0.1 - - [01/Jun/2026 22:10:06] "GET /images/image33.jpg HTTP/1.1" 200 -
+2026-06-01 22:10:06,822 127.0.0.1 - - [01/Jun/2026 22:10:06] "GET /images/image33.jpg HTTP/1.1" 200 -
+2026-06-01 22:10:07,970 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 695, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 399, in handle_message
+    nailong=nailong+1;
+            ^^^^^^^
+UnboundLocalError: cannot access local variable 'nailong' where it is not associated with a value
+2026-06-01 22:10:07,972 127.0.0.1 - - [01/Jun/2026 22:10:07] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 22:10:08,358 127.0.0.1 - - [01/Jun/2026 22:10:08] "GET /images/image18.jpg HTTP/1.1" 200 -
+2026-06-01 22:10:08,368 127.0.0.1 - - [01/Jun/2026 22:10:08] "GET /images/image18.jpg HTTP/1.1" 200 -
+2026-06-01 22:10:10,264 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 695, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 399, in handle_message
+    nailong=nailong+1;
+            ^^^^^^^
+UnboundLocalError: cannot access local variable 'nailong' where it is not associated with a value
+2026-06-01 22:10:10,265 127.0.0.1 - - [01/Jun/2026 22:10:10] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 22:10:12,363 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 695, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 399, in handle_message
+    nailong=nailong+1;
+            ^^^^^^^
+UnboundLocalError: cannot access local variable 'nailong' where it is not associated with a value
+2026-06-01 22:10:12,364 127.0.0.1 - - [01/Jun/2026 22:10:12] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 22:10:14,152 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 695, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 399, in handle_message
+    nailong=nailong+1;
+            ^^^^^^^
+UnboundLocalError: cannot access local variable 'nailong' where it is not associated with a value
+2026-06-01 22:10:14,153 127.0.0.1 - - [01/Jun/2026 22:10:14] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 22:10:16,319 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 695, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 399, in handle_message
+    nailong=nailong+1;
+            ^^^^^^^
+UnboundLocalError: cannot access local variable 'nailong' where it is not associated with a value
+2026-06-01 22:10:16,320 127.0.0.1 - - [01/Jun/2026 22:10:16] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 22:10:16,685 127.0.0.1 - - [01/Jun/2026 22:10:16] "GET /images/image4.jpg HTTP/1.1" 200 -
+2026-06-01 22:10:16,695 127.0.0.1 - - [01/Jun/2026 22:10:16] "GET /images/image4.jpg HTTP/1.1" 200 -
+2026-06-01 22:10:18,208 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 695, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 399, in handle_message
+    nailong=nailong+1;
+            ^^^^^^^
+UnboundLocalError: cannot access local variable 'nailong' where it is not associated with a value
+2026-06-01 22:10:18,209 127.0.0.1 - - [01/Jun/2026 22:10:18] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 22:10:20,350 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 695, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 399, in handle_message
+    nailong=nailong+1;
+            ^^^^^^^
+UnboundLocalError: cannot access local variable 'nailong' where it is not associated with a value
+2026-06-01 22:10:20,351 127.0.0.1 - - [01/Jun/2026 22:10:20] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 22:10:22,233 Exception on /callback [POST]
+Traceback (most recent call last):
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 695, in callback
+    handler.handle(body, signature)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 242, in handle
+    self.__invoke_func(func, event, payload)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ycchi\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\linebot\v3\webhook.py", line 254, in __invoke_func
+    func(event)
+    ~~~~^^^^^^^
+  File "c:\Users\ycchi\OneDrive\桌面\tra-assistant\linebot_server.py", line 399, in handle_message
+    nailong=nailong+1;
+            ^^^^^^^
+UnboundLocalError: cannot access local variable 'nailong' where it is not associated with a value
+2026-06-01 22:10:22,234 127.0.0.1 - - [01/Jun/2026 22:10:22] "[35m[1mPOST /callback HTTP/1.1[0m" 500 -
+2026-06-01 22:10:22,589 127.0.0.1 - - [01/Jun/2026 22:10:22] "GET /images/image7.jpg HTTP/1.1" 200 -
+2026-06-01 22:10:22,645 127.0.0.1 - - [01/Jun/2026 22:10:22] "GET /images/image7.jpg HTTP/1.1" 200 -
+2026-06-01 22:12:17,148 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-01 22:12:17,149 Added job "check_and_send_reminders" to job store "default"
+2026-06-01 22:12:17,149 Scheduler started
+2026-06-01 22:12:17,158 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-01 22:12:17,158 [33mPress CTRL+C to quit[0m
+2026-06-01 22:12:21,189 127.0.0.1 - - [01/Jun/2026 22:12:21] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:12:22,685 127.0.0.1 - - [01/Jun/2026 22:12:22] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:12:23,275 127.0.0.1 - - [01/Jun/2026 22:12:23] "GET /images/image34.jpg HTTP/1.1" 200 -
+2026-06-01 22:12:23,278 127.0.0.1 - - [01/Jun/2026 22:12:23] "GET /images/image34.jpg HTTP/1.1" 200 -
+2026-06-01 22:12:24,218 127.0.0.1 - - [01/Jun/2026 22:12:24] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:12:26,244 127.0.0.1 - - [01/Jun/2026 22:12:26] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:12:27,749 127.0.0.1 - - [01/Jun/2026 22:12:27] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:12:29,377 127.0.0.1 - - [01/Jun/2026 22:12:29] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:12:31,068 127.0.0.1 - - [01/Jun/2026 22:12:31] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:12:32,394 127.0.0.1 - - [01/Jun/2026 22:12:32] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:12:33,822 127.0.0.1 - - [01/Jun/2026 22:12:33] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:12:35,321 127.0.0.1 - - [01/Jun/2026 22:12:35] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:12:36,862 127.0.0.1 - - [01/Jun/2026 22:12:36] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:12:38,481 127.0.0.1 - - [01/Jun/2026 22:12:38] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:12:38,844 127.0.0.1 - - [01/Jun/2026 22:12:38] "GET /images/image24.jpg HTTP/1.1" 200 -
+2026-06-01 22:12:38,906 127.0.0.1 - - [01/Jun/2026 22:12:38] "GET /images/image24.jpg HTTP/1.1" 200 -
+2026-06-01 22:12:40,021 127.0.0.1 - - [01/Jun/2026 22:12:40] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:12:42,110 127.0.0.1 - - [01/Jun/2026 22:12:42] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:12:42,450 127.0.0.1 - - [01/Jun/2026 22:12:42] "GET /images/image20.jpg HTTP/1.1" 200 -
+2026-06-01 22:12:42,453 127.0.0.1 - - [01/Jun/2026 22:12:42] "GET /images/image20.jpg HTTP/1.1" 200 -
+2026-06-01 22:12:44,899 127.0.0.1 - - [01/Jun/2026 22:12:44] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:12:46,312 127.0.0.1 - - [01/Jun/2026 22:12:46] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:12:48,075 127.0.0.1 - - [01/Jun/2026 22:12:48] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:12:49,210 127.0.0.1 - - [01/Jun/2026 22:12:49] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:12:51,133 127.0.0.1 - - [01/Jun/2026 22:12:51] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:14:14,294 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-01 22:14:14,295 Added job "check_and_send_reminders" to job store "default"
+2026-06-01 22:14:14,295 Scheduler started
+2026-06-01 22:14:14,305 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-01 22:14:14,305 [33mPress CTRL+C to quit[0m
+2026-06-01 22:14:21,545 127.0.0.1 - - [01/Jun/2026 22:14:21] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:14:23,166 127.0.0.1 - - [01/Jun/2026 22:14:23] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:14:24,934 127.0.0.1 - - [01/Jun/2026 22:14:24] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:14:25,872 127.0.0.1 - - [01/Jun/2026 22:14:25] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:14:27,554 127.0.0.1 - - [01/Jun/2026 22:14:27] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:14:28,845 127.0.0.1 - - [01/Jun/2026 22:14:28] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:14:29,910 127.0.0.1 - - [01/Jun/2026 22:14:29] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:14:31,462 127.0.0.1 - - [01/Jun/2026 22:14:31] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:14:32,798 127.0.0.1 - - [01/Jun/2026 22:14:32] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:14:33,345 127.0.0.1 - - [01/Jun/2026 22:14:33] "GET /images/image17.jpg HTTP/1.1" 200 -
+2026-06-01 22:14:33,359 127.0.0.1 - - [01/Jun/2026 22:14:33] "GET /images/image17.jpg HTTP/1.1" 200 -
+2026-06-01 22:14:34,494 127.0.0.1 - - [01/Jun/2026 22:14:34] "GET /images/image37.jpg HTTP/1.1" 200 -
+2026-06-01 22:14:34,494 127.0.0.1 - - [01/Jun/2026 22:14:34] "GET /images/image37.jpg HTTP/1.1" 200 -
+2026-06-01 22:14:34,891 127.0.0.1 - - [01/Jun/2026 22:14:34] "POST /callback HTTP/1.1" 200 -
+2026-06-01 22:14:50,972 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-01 22:14:50,973 Added job "check_and_send_reminders" to job store "default"
+2026-06-01 22:14:50,973 Scheduler started
+2026-06-01 22:14:50,981 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-01 22:14:50,982 [33mPress CTRL+C to quit[0m
+2026-06-01 22:25:36,886 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-01 22:25:36,887 Added job "check_and_send_reminders" to job store "default"
+2026-06-01 22:25:36,888 Scheduler started
+2026-06-01 22:25:36,896 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-01 22:25:36,896 [33mPress CTRL+C to quit[0m
+2026-06-02 02:06:19,907 Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-06-02 02:06:19,910 Added job "check_and_send_reminders" to job store "default"
+2026-06-02 02:06:19,910 Scheduler started
+2026-06-02 02:06:19,940 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-02 02:06:19,940 [33mPress CTRL+C to quit[0m
+2026-06-02 02:06:42,345 127.0.0.1 - - [02/Jun/2026 02:06:42] "POST /callback HTTP/1.1" 200 -
+2026-06-02 02:06:43,077 127.0.0.1 - - [02/Jun/2026 02:06:43] "GET /images/image41.jpg HTTP/1.1" 200 -
+2026-06-02 02:06:43,077 127.0.0.1 - - [02/Jun/2026 02:06:43] "GET /images/image41.jpg HTTP/1.1" 200 -
+2026-06-02 02:06:43,255 127.0.0.1 - - [02/Jun/2026 02:06:43] "GET /images/image41.jpg HTTP/1.1" 200 -
+2026-06-02 02:06:46,077 [U769bb0d] 模式:train 人格:正常 輸入:查票系統
+2026-06-02 02:06:46,238 127.0.0.1 - - [02/Jun/2026 02:06:46] "POST /callback HTTP/1.1" 200 -
+2026-06-02 02:06:48,212 [U769bb0d] 模式:train 人格:正常 輸入:聊天模式
+2026-06-02 02:06:48,372 127.0.0.1 - - [02/Jun/2026 02:06:48] "POST /callback HTTP/1.1" 200 -
+2026-06-02 02:06:51,769 [U769bb0d] 模式:chat 人格:正常 輸入:查票系統
+2026-06-02 02:06:53,941 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 02:06:54,560 127.0.0.1 - - [02/Jun/2026 02:06:54] "POST /callback HTTP/1.1" 200 -
+2026-06-02 02:06:58,049 [U769bb0d] 模式:chat 人格:正常 輸入:查票系統
+2026-06-02 02:07:08,735 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 02:07:10,125 127.0.0.1 - - [02/Jun/2026 02:07:10] "POST /callback HTTP/1.1" 200 -
+2026-06-02 02:07:12,962 127.0.0.1 - - [02/Jun/2026 02:07:12] "POST /callback HTTP/1.1" 200 -
+2026-06-02 02:07:13,315 127.0.0.1 - - [02/Jun/2026 02:07:13] "GET /images/image62.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:13,382 127.0.0.1 - - [02/Jun/2026 02:07:13] "GET /images/image62.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:13,500 127.0.0.1 - - [02/Jun/2026 02:07:13] "GET /images/image62.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:13,911 127.0.0.1 - - [02/Jun/2026 02:07:13] "POST /callback HTTP/1.1" 200 -
+2026-06-02 02:07:14,516 127.0.0.1 - - [02/Jun/2026 02:07:14] "GET /images/image5.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:14,899 127.0.0.1 - - [02/Jun/2026 02:07:14] "POST /callback HTTP/1.1" 200 -
+2026-06-02 02:07:15,327 127.0.0.1 - - [02/Jun/2026 02:07:15] "GET /images/image48.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:15,334 127.0.0.1 - - [02/Jun/2026 02:07:15] "GET /images/image48.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:15,478 127.0.0.1 - - [02/Jun/2026 02:07:15] "GET /images/image48.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:19,490 127.0.0.1 - - [02/Jun/2026 02:07:19] "GET /images/image16.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:19,757 127.0.0.1 - - [02/Jun/2026 02:07:19] "GET /images/image38.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:19,871 127.0.0.1 - - [02/Jun/2026 02:07:19] "GET /images/image30.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:19,959 127.0.0.1 - - [02/Jun/2026 02:07:19] "GET /images/image46.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:19,959 127.0.0.1 - - [02/Jun/2026 02:07:19] "GET /images/image46.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:20,090 127.0.0.1 - - [02/Jun/2026 02:07:20] "POST /callback HTTP/1.1" 200 -
+2026-06-02 02:07:20,118 127.0.0.1 - - [02/Jun/2026 02:07:20] "GET /images/image46.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:20,421 127.0.0.1 - - [02/Jun/2026 02:07:20] "GET /images/image45.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:20,447 127.0.0.1 - - [02/Jun/2026 02:07:20] "GET /images/image45.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:20,476 127.0.0.1 - - [02/Jun/2026 02:07:20] "GET /images/image45.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:20,629 127.0.0.1 - - [02/Jun/2026 02:07:20] "GET /images/image11.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:21,571 127.0.0.1 - - [02/Jun/2026 02:07:21] "GET /images/image16.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:27,690 127.0.0.1 - - [02/Jun/2026 02:07:27] "POST /callback HTTP/1.1" 200 -
+2026-06-02 02:07:28,376 127.0.0.1 - - [02/Jun/2026 02:07:28] "GET /images/image15.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:28,887 127.0.0.1 - - [02/Jun/2026 02:07:28] "GET /images/image59.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:28,896 127.0.0.1 - - [02/Jun/2026 02:07:28] "GET /images/image59.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:28,916 127.0.0.1 - - [02/Jun/2026 02:07:28] "POST /callback HTTP/1.1" 200 -
+2026-06-02 02:07:29,124 127.0.0.1 - - [02/Jun/2026 02:07:29] "GET /images/image12.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:29,124 127.0.0.1 - - [02/Jun/2026 02:07:29] "GET /images/image12.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:29,269 127.0.0.1 - - [02/Jun/2026 02:07:29] "GET /images/image59.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:29,496 127.0.0.1 - - [02/Jun/2026 02:07:29] "GET /images/image12.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:29,732 127.0.0.1 - - [02/Jun/2026 02:07:29] "GET /images/image13.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:30,614 127.0.0.1 - - [02/Jun/2026 02:07:30] "GET /images/image30.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:30,697 127.0.0.1 - - [02/Jun/2026 02:07:30] "GET /images/image56.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:30,699 127.0.0.1 - - [02/Jun/2026 02:07:30] "GET /images/image56.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:31,139 127.0.0.1 - - [02/Jun/2026 02:07:31] "GET /images/image56.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:31,209 127.0.0.1 - - [02/Jun/2026 02:07:31] "GET /images/image18.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:31,344 127.0.0.1 - - [02/Jun/2026 02:07:31] "GET /images/image17.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:31,678 127.0.0.1 - - [02/Jun/2026 02:07:31] "GET /images/image24.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:31,754 127.0.0.1 - - [02/Jun/2026 02:07:31] "GET /images/image27.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:31,754 127.0.0.1 - - [02/Jun/2026 02:07:31] "GET /images/image27.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:31,875 127.0.0.1 - - [02/Jun/2026 02:07:31] "GET /images/image27.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:32,460 127.0.0.1 - - [02/Jun/2026 02:07:32] "GET /images/image59.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:32,468 127.0.0.1 - - [02/Jun/2026 02:07:32] "GET /images/image54.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:32,468 127.0.0.1 - - [02/Jun/2026 02:07:32] "GET /images/image54.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:32,468 127.0.0.1 - - [02/Jun/2026 02:07:32] "GET /images/image54.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:32,707 127.0.0.1 - - [02/Jun/2026 02:07:32] "GET /images/image8.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:32,785 127.0.0.1 - - [02/Jun/2026 02:07:32] "GET /images/image48.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:32,976 127.0.0.1 - - [02/Jun/2026 02:07:32] "GET /images/image30.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:33,068 127.0.0.1 - - [02/Jun/2026 02:07:33] "GET /images/image43.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:33,068 127.0.0.1 - - [02/Jun/2026 02:07:33] "GET /images/image43.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:33,263 127.0.0.1 - - [02/Jun/2026 02:07:33] "GET /images/image65.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:33,263 127.0.0.1 - - [02/Jun/2026 02:07:33] "GET /images/image65.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:33,375 127.0.0.1 - - [02/Jun/2026 02:07:33] "POST /callback HTTP/1.1" 200 -
+2026-06-02 02:07:33,433 127.0.0.1 - - [02/Jun/2026 02:07:33] "GET /images/image51.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:33,475 127.0.0.1 - - [02/Jun/2026 02:07:33] "GET /images/image51.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:33,553 127.0.0.1 - - [02/Jun/2026 02:07:33] "POST /callback HTTP/1.1" 200 -
+2026-06-02 02:07:33,666 127.0.0.1 - - [02/Jun/2026 02:07:33] "GET /images/image36.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:33,672 127.0.0.1 - - [02/Jun/2026 02:07:33] "GET /images/image36.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:33,678 127.0.0.1 - - [02/Jun/2026 02:07:33] "GET /images/image10.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:33,680 127.0.0.1 - - [02/Jun/2026 02:07:33] "GET /images/image9.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:33,830 127.0.0.1 - - [02/Jun/2026 02:07:33] "GET /images/image43.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:33,896 127.0.0.1 - - [02/Jun/2026 02:07:33] "GET /images/image61.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:33,909 127.0.0.1 - - [02/Jun/2026 02:07:33] "GET /images/image61.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:34,210 127.0.0.1 - - [02/Jun/2026 02:07:34] "GET /images/image51.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:34,277 127.0.0.1 - - [02/Jun/2026 02:07:34] "GET /images/image36.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:34,278 127.0.0.1 - - [02/Jun/2026 02:07:34] "GET /images/image1.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:34,406 127.0.0.1 - - [02/Jun/2026 02:07:34] "GET /images/image10.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:34,514 127.0.0.1 - - [02/Jun/2026 02:07:34] "GET /images/image51.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:35,066 127.0.0.1 - - [02/Jun/2026 02:07:35] "GET /images/image65.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:35,071 127.0.0.1 - - [02/Jun/2026 02:07:35] "GET /images/image30.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:35,131 127.0.0.1 - - [02/Jun/2026 02:07:35] "GET /images/image9.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:35,136 127.0.0.1 - - [02/Jun/2026 02:07:35] "GET /images/image48.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:35,573 127.0.0.1 - - [02/Jun/2026 02:07:35] "GET /images/image17.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:35,702 127.0.0.1 - - [02/Jun/2026 02:07:35] "GET /images/image27.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:35,711 127.0.0.1 - - [02/Jun/2026 02:07:35] "GET /images/image24.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:35,896 127.0.0.1 - - [02/Jun/2026 02:07:35] "GET /images/image54.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:36,691 127.0.0.1 - - [02/Jun/2026 02:07:36] "GET /images/image56.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:36,694 127.0.0.1 - - [02/Jun/2026 02:07:36] "GET /images/image13.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:36,758 127.0.0.1 - - [02/Jun/2026 02:07:36] "GET /images/image30.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:37,441 127.0.0.1 - - [02/Jun/2026 02:07:37] "GET /images/image12.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:38,122 127.0.0.1 - - [02/Jun/2026 02:07:38] "GET /images/image59.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:38,310 127.0.0.1 - - [02/Jun/2026 02:07:38] "GET /images/image15.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:38,528 127.0.0.1 - - [02/Jun/2026 02:07:38] "GET /images/image18.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:39,745 127.0.0.1 - - [02/Jun/2026 02:07:39] "GET /images/image13.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:39,922 127.0.0.1 - - [02/Jun/2026 02:07:39] "GET /images/image17.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:39,924 127.0.0.1 - - [02/Jun/2026 02:07:39] "GET /images/image18.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:39,985 127.0.0.1 - - [02/Jun/2026 02:07:39] "GET /images/image24.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:40,049 127.0.0.1 - - [02/Jun/2026 02:07:40] "GET /images/image27.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:40,399 127.0.0.1 - - [02/Jun/2026 02:07:40] "GET /images/image54.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:40,588 127.0.0.1 - - [02/Jun/2026 02:07:40] "GET /images/image8.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:40,650 127.0.0.1 - - [02/Jun/2026 02:07:40] "GET /images/image48.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:40,711 127.0.0.1 - - [02/Jun/2026 02:07:40] "GET /images/image9.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:40,720 127.0.0.1 - - [02/Jun/2026 02:07:40] "GET /images/image30.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:40,771 127.0.0.1 - - [02/Jun/2026 02:07:40] "GET /images/image43.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:40,772 127.0.0.1 - - [02/Jun/2026 02:07:40] "GET /images/image65.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:41,350 127.0.0.1 - - [02/Jun/2026 02:07:41] "GET /images/image1.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:41,354 127.0.0.1 - - [02/Jun/2026 02:07:41] "GET /images/image51.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:41,416 127.0.0.1 - - [02/Jun/2026 02:07:41] "GET /images/image36.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:41,542 127.0.0.1 - - [02/Jun/2026 02:07:41] "GET /images/image26.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:41,989 127.0.0.1 - - [02/Jun/2026 02:07:41] "GET /images/image51.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:42,062 127.0.0.1 - - [02/Jun/2026 02:07:42] "GET /images/image59.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:42,424 127.0.0.1 - - [02/Jun/2026 02:07:42] "GET /images/image61.jpg HTTP/1.1" 200 -
+2026-06-02 02:07:56,809 [U769bb0d] 模式:chat 人格:正常 輸入:查票系統
+2026-06-02 02:08:07,662 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 02:08:09,009 127.0.0.1 - - [02/Jun/2026 02:08:09] "POST /callback HTTP/1.1" 200 -
+2026-06-02 02:09:34,102 [U769bb0d] 模式:chat 人格:正常 輸入:查票系統
+2026-06-02 02:09:35,516 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 02:09:36,152 127.0.0.1 - - [02/Jun/2026 02:09:36] "POST /callback HTTP/1.1" 200 -
+2026-06-02 02:09:36,206 [U769bb0d] 模式:chat 人格:正常 輸入:查票系統
+2026-06-02 02:09:37,408 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 02:09:38,199 127.0.0.1 - - [02/Jun/2026 02:09:38] "POST /callback HTTP/1.1" 200 -
+2026-06-02 02:09:43,178 [U769bb0d] 模式:chat 人格:正常 輸入:查票系統
+2026-06-02 02:09:49,129 [U769bb0d] 模式:chat 人格:正常 輸入:查票模式
+2026-06-02 02:09:49,343 127.0.0.1 - - [02/Jun/2026 02:09:49] "POST /callback HTTP/1.1" 200 -
+2026-06-02 02:09:52,783 [U769bb0d] 模式:train 人格:正常 輸入:聊天模式
+2026-06-02 02:09:52,963 127.0.0.1 - - [02/Jun/2026 02:09:52] "POST /callback HTTP/1.1" 200 -
+2026-06-02 02:09:53,834 HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2026-06-02 02:09:55,656 127.0.0.1 - - [02/Jun/2026 02:09:55] "POST /callback HTTP/1.1" 200 -
+2026-06-02 02:09:56,301 127.0.0.1 - - [02/Jun/2026 02:09:56] "GET /images/image14.jpg HTTP/1.1" 200 -
+2026-06-02 02:09:56,303 127.0.0.1 - - [02/Jun/2026 02:09:56] "GET /images/image14.jpg HTTP/1.1" 200 -
+2026-06-02 02:09:56,533 127.0.0.1 - - [02/Jun/2026 02:09:56] "GET /images/image14.jpg HTTP/1.1" 200 -
+2026-06-02 02:09:56,869 127.0.0.1 - - [02/Jun/2026 02:09:56] "POST /callback HTTP/1.1" 200 -
+2026-06-02 02:10:00,285 127.0.0.1 - - [02/Jun/2026 02:10:00] "POST /callback HTTP/1.1" 200 -
+2026-06-02 02:10:00,781 127.0.0.1 - - [02/Jun/2026 02:10:00] "GET /images/image54.jpg HTTP/1.1" 200 -
+2026-06-02 02:10:25,656 127.0.0.1 - - [02/Jun/2026 02:10:25] "POST /callback HTTP/1.1" 200 -
+2026-06-02 02:10:26,086 127.0.0.1 - - [02/Jun/2026 02:10:26] "GET /images/image3.jpg HTTP/1.1" 200 -
+2026-06-02 16:55:20,302 Run time of job "check_and_send_reminders (trigger: cron[hour='9', minute='0'], next run at: 2026-06-02 09:00:00 CST)" was missed by 7:55:20.300130

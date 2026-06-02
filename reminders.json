@@ -1,0 +1,32 @@
+[
+  {
+    "id": "U769bb0d851589d2039b8d45610a568ec_2026-07-20_sale",
+    "user_id": "U769bb0d851589d2039b8d45610a568ec",
+    "type": "sale",
+    "trip_date": "2026-07-20",
+    "remind_date": "2026-06-22",
+    "origin": "台中",
+    "destination": "台北",
+    "sent": false
+  },
+  {
+    "id": "U769bb0d851589d2039b8d45610a568ec_2026-07-20_before",
+    "user_id": "U769bb0d851589d2039b8d45610a568ec",
+    "type": "before",
+    "trip_date": "2026-07-20",
+    "remind_date": "2026-07-19",
+    "origin": "台中",
+    "destination": "台北",
+    "sent": false
+  },
+  {
+    "id": "U769bb0d851589d2039b8d45610a568ec_2026-06-10_before",
+    "user_id": "U769bb0d851589d2039b8d45610a568ec",
+    "type": "before",
+    "trip_date": "2026-06-10",
+    "remind_date": "2026-06-09",
+    "origin": "台中",
+    "destination": "桃園",
+    "sent": false
+  }
+]

@@ -7,11 +7,11 @@ import time
 def explore():
     with sync_playwright() as p:
         # headless=False 代表開啟看得到的瀏覽器視窗，方便觀察
-        browser = p.chromium.launch(headless=False, slow_mo=500)
+        browser = p.chromium.launch(headless=False, slow_mo=100)
         page = browser.new_page()
 
         print("開啟台鐵訂票網站...")
-        page.goto("https://tip.railway.gov.tw/tra-tip-web/tip/tip001/tip121/query")
+        page.goto("https://tip.railway.gov.tw/tra-tip-web/tip/tip001/tip112/querybytime")
         page.wait_for_load_state("networkidle")
 
         print("網頁標題：", page.title())
